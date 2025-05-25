@@ -1,0 +1,5 @@
+C:\Users\HP\source\repos\Kursov\Application\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Kursov\Application\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Kursov\Application\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Kursov\Application\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+C:\Users\HP\source\repos\Kursov\Application\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache

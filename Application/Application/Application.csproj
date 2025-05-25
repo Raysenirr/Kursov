@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\Education.Domain\Education.Domain.csproj" />
+    <ProjectReference Include="..\..\Domain\Education.ValueObjects\Education.ValueObjects.csproj" />
+    <ProjectReference Include="..\..\Domain\Education.Domain.Services\Education.Domain.Services.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

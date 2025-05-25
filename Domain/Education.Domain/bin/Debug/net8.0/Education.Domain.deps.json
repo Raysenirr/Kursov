@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Education.Domain/1.0.0": {
+        "dependencies": {
+          "Education.ValueObjects": "1.0.0"
+        },
+        "runtime": {
+          "Education.Domain.dll": {}
+        }
+      },
+      "Education.ValueObjects/1.0.0": {
+        "runtime": {
+          "Education.ValueObjects.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Education.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Education.ValueObjects/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\HP\source\repos\Kursov\Domain\Education.Domain\bin\Debug\net8.0\Education.Domain.deps.json
+C:\Users\HP\source\repos\Kursov\Domain\Education.Domain\bin\Debug\net8.0\Education.Domain.dll
+C:\Users\HP\source\repos\Kursov\Domain\Education.Domain\bin\Debug\net8.0\Education.Domain.pdb
+C:\Users\HP\source\repos\Kursov\Domain\Education.Domain\bin\Debug\net8.0\Education.ValueObjects.dll
+C:\Users\HP\source\repos\Kursov\Domain\Education.Domain\bin\Debug\net8.0\Education.ValueObjects.pdb
+C:\Users\HP\source\repos\Kursov\Domain\Education.Domain\obj\Debug\net8.0\Education.Domain.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Kursov\Domain\Education.Domain\obj\Debug\net8.0\Education.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Kursov\Domain\Education.Domain\obj\Debug\net8.0\Education.Domain.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Kursov\Domain\Education.Domain\obj\Debug\net8.0\Education.Domain.AssemblyInfo.cs
+C:\Users\HP\source\repos\Kursov\Domain\Education.Domain\obj\Debug\net8.0\Education.Domain.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Kursov\Domain\Education.Domain\obj\Debug\net8.0\Educatio.E5EE3E45.Up2Date
+C:\Users\HP\source\repos\Kursov\Domain\Education.Domain\obj\Debug\net8.0\Education.Domain.dll
+C:\Users\HP\source\repos\Kursov\Domain\Education.Domain\obj\Debug\net8.0\refint\Education.Domain.dll
+C:\Users\HP\source\repos\Kursov\Domain\Education.Domain\obj\Debug\net8.0\Education.Domain.pdb
+C:\Users\HP\source\repos\Kursov\Domain\Education.Domain\obj\Debug\net8.0\ref\Education.Domain.dll
