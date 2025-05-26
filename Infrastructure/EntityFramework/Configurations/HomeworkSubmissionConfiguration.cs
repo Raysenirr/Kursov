@@ -24,7 +24,7 @@ public class HomeworkSubmissionConfiguration : IEntityTypeConfiguration<Homework
 
         // Навигация к Homework — ❗ БЕЗ указания Submissions, чтобы не конфликтовало с _submissions
         builder.HasOne(x => x.Homework)
-               .WithMany() // 👈 важно: без .WithMany(h => h.Submissions)
+               .WithMany("_submissions") // 👈 важно: без .WithMany(h => h.Submissions)
                .HasForeignKey(x => x.HomeworkId)
                .OnDelete(DeleteBehavior.Cascade)
                .IsRequired();

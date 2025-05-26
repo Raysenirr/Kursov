@@ -9,44 +9,41 @@ public class LessonConfiguration : IEntityTypeConfiguration<Lesson>
 {
     public void Configure(EntityTypeBuilder<Lesson> builder)
     {
-        // Ключ
         builder.HasKey(x => x.Id);
         builder.Property(x => x.Id).ValueGeneratedOnAdd();
 
-        // Время урока и статус
         builder.Property(x => x.ClassTime).IsRequired();
-        builder.Property(x => x.State).IsRequired();
+        builder.Property(x => x.State).IsRequired().HasConversion<string>();
 
-        // Тема урока — value object
         builder.Property(x => x.Topic)
                .IsRequired()
                .HasMaxLength(100)
                .HasConversion(
                    topic => topic.Value,
-                   value => new LessonTopic(value)
-               );
+                   value => new LessonTopic(value));
 
-        // Навигации
         builder.HasOne(x => x.Group)
                .WithMany()
+               .HasForeignKey("GroupId")
+               .OnDelete(DeleteBehavior.Cascade)
                .IsRequired();
 
         builder.HasOne(x => x.Teacher)
                .WithMany("_lessons")
+               .HasForeignKey(x => x.TeacherId)
+               .OnDelete(DeleteBehavior.Restrict)
                .IsRequired();
 
-        // ❗ Игнорировать вычисляемое свойство AssignedHomeworks
-        builder.Ignore(x => x.AssignedHomeworks);
-
-        // Домашние задания — основное навигационное свойство
-        builder.HasMany(x => x.Homeworks)
-               .WithOne(h => h.Lesson)
+        builder.HasMany("_homeworks")
+               .WithOne("Lesson")
                .HasForeignKey("LessonId")
-               .IsRequired()
-               .OnDelete(DeleteBehavior.Cascade);
+               .OnDelete(DeleteBehavior.Cascade)
+               .IsRequired();
 
-        builder.Navigation(x => x.Homeworks)
-               .UsePropertyAccessMode(PropertyAccessMode.Field);
+        builder.Metadata.FindNavigation("_homeworks")!
+               .SetPropertyAccessMode(PropertyAccessMode.Field);
+
+        builder.Ignore(x => x.Homeworks); // ← оставляем только для обёртки
     }
 }
 

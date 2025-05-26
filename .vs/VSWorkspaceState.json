@@ -5,6 +5,8 @@
     "\\Domain\\Education.Domain",
     "\\Domain\\Education.Domain.Repositories.Abstractions",
     "\\Infrastructure",
+    "\\Infrastructure\\EntityFramework",
+    "\\Infrastructure\\EntityFramework\\Configurations",
     "\\Infrastructure\\Infrastructure"
   ],
   "SelectedNode": "\\Kursov.sln",

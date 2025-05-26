@@ -2,6 +2,7 @@
 using Education.Domain.ValueObjects;
 using Education.Domain.Exceptions;
 using System.Collections.ObjectModel;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Education.Domain.Entities
 {
@@ -11,20 +12,41 @@ namespace Education.Domain.Entities
     public class Homework : Entity<Guid>
     {
         public Lesson Lesson { get; private set; }
+        public Guid LessonId { get; private set; }
         public HomeworkTitle Title { get; private set; }
 
         private readonly ICollection<HomeworkSubmission> _submissions = new List<HomeworkSubmission>();
+
+        [NotMapped]
         public IReadOnlyCollection<HomeworkSubmission> Submissions => new ReadOnlyCollection<HomeworkSubmission>(_submissions.ToList());
 
-        protected Homework() : base(Guid.NewGuid()) { }
+        /// <summary>
+        /// Конструктор для EF Core
+        /// </summary>
+        protected Homework() : base(Guid.NewGuid())
+        {
+            _submissions = new List<HomeworkSubmission>();
+        }
 
-        public Homework(Lesson lesson, HomeworkTitle title) : this(Guid.NewGuid(), lesson, title) { }
+        /// <summary>
+        /// Публичный конструктор для создания домашнего задания вручную
+        /// </summary>
+        public Homework(Lesson lesson, HomeworkTitle title)
+            : this(Guid.NewGuid(), lesson, title)
+        {
+        }
 
-        protected Homework(Guid id, Lesson lesson, HomeworkTitle title) : base(id)
+        /// <summary>
+        /// Защищённый конструктор с полным контролем (для наследников, тестов или маппинга)
+        /// </summary>
+        protected Homework(Guid id, Lesson lesson, HomeworkTitle title)
+            : base(id)
         {
             Lesson = lesson ?? throw new LessonIsNullException();
             Title = title ?? throw new HomeworkTitleIsNullsException();
+            _submissions = new List<HomeworkSubmission>();
         }
+
 
         public void SubmitBy(Student student, DateTime submissionDate)
         {

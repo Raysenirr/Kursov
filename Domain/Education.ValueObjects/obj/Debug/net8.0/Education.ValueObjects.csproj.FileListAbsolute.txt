@@ -5,6 +5,7 @@ C:\Users\HP\source\repos\Kursov\Domain\Education.ValueObjects\obj\Debug\net8.0\E
 C:\Users\HP\source\repos\Kursov\Domain\Education.ValueObjects\obj\Debug\net8.0\Education.ValueObjects.AssemblyInfoInputs.cache
 C:\Users\HP\source\repos\Kursov\Domain\Education.ValueObjects\obj\Debug\net8.0\Education.ValueObjects.AssemblyInfo.cs
 C:\Users\HP\source\repos\Kursov\Domain\Education.ValueObjects\obj\Debug\net8.0\Education.ValueObjects.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Kursov\Domain\Education.ValueObjects\obj\Debug\net8.0\Education.ValueObjects.sourcelink.json
 C:\Users\HP\source\repos\Kursov\Domain\Education.ValueObjects\obj\Debug\net8.0\Education.ValueObjects.dll
 C:\Users\HP\source\repos\Kursov\Domain\Education.ValueObjects\obj\Debug\net8.0\refint\Education.ValueObjects.dll
 C:\Users\HP\source\repos\Kursov\Domain\Education.ValueObjects\obj\Debug\net8.0\Education.ValueObjects.pdb

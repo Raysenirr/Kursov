@@ -13,28 +13,42 @@ namespace Education.Domain.Entities
     /// </summary>
     public class Teacher : Person
     {
+
         private readonly ICollection<Lesson> _lessons = new List<Lesson>();
         private readonly ICollection<Grade> _grades = new List<Grade>();
         private readonly HomeworkBank _homeworkBank;
 
         public HomeworkBank HomeworkBank => _homeworkBank;
 
+        ///<summary>Навигационное свойство для EF — доступ к урокам</summary>
+        //public ICollection<Lesson> Lessons => (ICollection<Lesson>)_lessons;
+
+        ///<summary>Навигационное свойство для EF — доступ к оценкам</summary>
+        //public ICollection<Grade> Grades => (ICollection<Grade>)_grades;
+
+        ///<summary>Проведённые уроки</summary>
         public IReadOnlyCollection<Lesson> TeachedLessons =>
             _lessons.Where(l => l.State == LessonStatus.Teached).ToList().AsReadOnly();
 
+        ///<summary>Запланированные уроки</summary>
         public IReadOnlyCollection<Lesson> ScheduledLessons =>
             _lessons.Where(l => l.State == LessonStatus.New).ToList().AsReadOnly();
 
+        ///<summary>Оценки, выставленные преподавателем</summary>
         public IReadOnlyCollection<Grade> AssignedGrades =>
             _grades.ToList().AsReadOnly();
+
 
         #region Constructors
 
         /// <summary>
         /// Конструктор для восстановления из БД (Entity Framework).
         /// </summary>
+        /// <summary>
+        /// Полный защищённый конструктор (используется в ручной инициализации, в т.ч. публичной версии ниже).
+        /// </summary>
         protected Teacher(Guid id, PersonName name, ICollection<Lesson> lessons, ICollection<Grade> grades, HomeworkBank homeworkBank)
-    : base(id, name)
+            : base(id, name)
         {
             _lessons = lessons ?? new Collection<Lesson>();
             _grades = grades ?? new Collection<Grade>();
@@ -49,11 +63,17 @@ namespace Education.Domain.Entities
         {
         }
 
-
+        /// <summary>
+        /// EF-конструктор — должен корректно инициализировать навигации и value-объекты.
+        /// </summary>
         protected Teacher(Guid id, PersonName name)
             : base(id, name)
         {
+            _lessons = new Collection<Lesson>();
+            _grades = new Collection<Grade>();
+            _homeworkBank = new HomeworkBank();
         }
+
 
         #endregion
 

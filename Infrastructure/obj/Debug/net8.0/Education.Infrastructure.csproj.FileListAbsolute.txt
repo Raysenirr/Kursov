@@ -11,6 +11,7 @@ C:\Users\HP\source\repos\Kursov\Infrastructure\obj\Debug\net8.0\Education.Infras
 C:\Users\HP\source\repos\Kursov\Infrastructure\obj\Debug\net8.0\Education.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\HP\source\repos\Kursov\Infrastructure\obj\Debug\net8.0\Education.Infrastructure.AssemblyInfo.cs
 C:\Users\HP\source\repos\Kursov\Infrastructure\obj\Debug\net8.0\Education.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Kursov\Infrastructure\obj\Debug\net8.0\Education.Infrastructure.sourcelink.json
 C:\Users\HP\source\repos\Kursov\Infrastructure\obj\Debug\net8.0\Educatio.6FFCC0B1.Up2Date
 C:\Users\HP\source\repos\Kursov\Infrastructure\obj\Debug\net8.0\Education.Infrastructure.dll
 C:\Users\HP\source\repos\Kursov\Infrastructure\obj\Debug\net8.0\refint\Education.Infrastructure.dll

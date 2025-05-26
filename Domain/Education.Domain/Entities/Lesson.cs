@@ -3,6 +3,7 @@ using Education.Domain.ValueObjects;
 using Education.Domain.Enums;
 using Education.Domain.Exceptions;
 using System.Collections.ObjectModel;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Education.Domain.Entities
 {
@@ -13,6 +14,7 @@ namespace Education.Domain.Entities
         public DateTime ClassTime { get; private set; }
         public LessonTopic Topic { get; }
         public LessonStatus State { get; private set; }
+        public Guid TeacherId { get; private set; }
 
         /// <summary>
         /// Навигация к домашним заданиям (используется EF)
@@ -21,19 +23,23 @@ namespace Education.Domain.Entities
         public IReadOnlyCollection<Homework> AssignedHomeworks => new ReadOnlyCollection<Homework>(_homeworks.ToList());
 
         // 👉 Добавь это свойство для EF
+        [NotMapped]
         public ICollection<Homework> Homeworks => (ICollection<Homework>)_homeworks;
 
 
         private readonly ICollection<Grade> _grades = new List<Grade>();
-        public IReadOnlyCollection<Grade> Grades =>
-            new ReadOnlyCollection<Grade>(_grades.ToList());
+        
+        //public IReadOnlyCollection<Grade> Grades => new ReadOnlyCollection<Grade>(_grades.ToList());
+
+        public IReadOnlyCollection<Grade> AssignedGrades => new ReadOnlyCollection<Grade>(_grades.ToList());
 
         protected Lesson(Guid id, Group group, Teacher teacher, LessonTopic topic,
-                         DateTime classTime, LessonStatus status) : base(id)
+                 DateTime classTime, LessonStatus status) : base(id)
         {
             ValidateScheduleTime(classTime);
             Group = group ?? throw new GroupIsNullException();
             Teacher = teacher ?? throw new TeacherIsNullException();
+            TeacherId = teacher.Id; // добавлено
             Topic = topic ?? throw new LessonTopicIsNullsException();
             ClassTime = classTime;
             State = status;
@@ -46,7 +52,6 @@ namespace Education.Domain.Entities
             : this(Guid.NewGuid(), group, teacher, topic, classTime, LessonStatus.New) { }
 
         protected Lesson() : base(Guid.NewGuid()) { }
-
         public void Teach()
         {
             ValidateBeforeStateChange();

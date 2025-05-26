@@ -10,6 +10,7 @@ C:\Users\HP\source\repos\Kursov\Domain\Education.Domain.Services\obj\Debug\net8.
 C:\Users\HP\source\repos\Kursov\Domain\Education.Domain.Services\obj\Debug\net8.0\Education.Domain.Services.AssemblyInfoInputs.cache
 C:\Users\HP\source\repos\Kursov\Domain\Education.Domain.Services\obj\Debug\net8.0\Education.Domain.Services.AssemblyInfo.cs
 C:\Users\HP\source\repos\Kursov\Domain\Education.Domain.Services\obj\Debug\net8.0\Education.Domain.Services.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Kursov\Domain\Education.Domain.Services\obj\Debug\net8.0\Education.Domain.Services.sourcelink.json
 C:\Users\HP\source\repos\Kursov\Domain\Education.Domain.Services\obj\Debug\net8.0\Educatio.DC19EA4C.Up2Date
 C:\Users\HP\source\repos\Kursov\Domain\Education.Domain.Services\obj\Debug\net8.0\Education.Domain.Services.dll
 C:\Users\HP\source\repos\Kursov\Domain\Education.Domain.Services\obj\Debug\net8.0\refint\Education.Domain.Services.dll

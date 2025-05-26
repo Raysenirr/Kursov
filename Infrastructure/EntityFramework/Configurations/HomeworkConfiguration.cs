@@ -22,28 +22,25 @@ public class HomeworkConfiguration : IEntityTypeConfiguration<Homework>
                 value => new HomeworkTitle(value)
             );
 
-        // Навигация к уроку (с привязкой к Lesson.Homeworks)
+        // ✅ Простая навигация к Lesson — без WithMany
         builder.HasOne(h => h.Lesson)
-            .WithMany(l => l.Homeworks)
-            .HasForeignKey("LessonId")
-            .IsRequired()
-            .OnDelete(DeleteBehavior.Cascade);
+               .WithMany() // ← просто оставляем пустым (основная связь настраивается в LessonConfiguration)
+               .HasForeignKey(h => h.LessonId)
+               .OnDelete(DeleteBehavior.Cascade)
+               .IsRequired();
 
-        builder.Navigation(h => h.Lesson).AutoInclude();
-        builder.Ignore(h => h.Submissions);
-
-        // Приватное поле
+        // ✅ Настройка навигации к сабмишенам
         builder.HasMany<HomeworkSubmission>("_submissions")
-            .WithOne(s => s.Homework)
-            .HasForeignKey("HomeworkId")
-            .IsRequired()
-            .OnDelete(DeleteBehavior.Cascade);
+               .WithOne(s => s.Homework)
+               .HasForeignKey("HomeworkId")
+               .IsRequired()
+               .OnDelete(DeleteBehavior.Cascade);
 
-        // Безопасно находим навигацию
         var nav = builder.Metadata.FindNavigation("_submissions");
         if (nav is not null)
             nav.SetPropertyAccessMode(PropertyAccessMode.Field);
-
     }
 }
+
+
 

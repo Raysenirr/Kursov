@@ -1,6 +1,7 @@
 ﻿using Education.Domain.Entities.Base;
 using Education.Domain.Enums;
 using Education.Domain.Exceptions;
+using System.ComponentModel.DataAnnotations.Schema;
 
 
 namespace Education.Domain.Entities
@@ -19,7 +20,10 @@ namespace Education.Domain.Entities
         public Student Student { get; private set; }
 
         /// <summary> Урок, за который поставлена оценка </summary>
-        public Lesson Lesson { get; private set; }
+        [NotMapped] // 👈 чтобы EF не трогал это свойство
+        public Lesson Lesson => _lesson;
+
+        private readonly Lesson _lesson;
 
         /// <summary> Время выставления оценки </summary>
         public DateTime GradedTime { get; private set; }
@@ -33,15 +37,14 @@ namespace Education.Domain.Entities
         /// <summary> Внешний ключ для урока </summary>
         public Guid LessonId { get; private set; }
 
+        public Guid TeacherId { get; private set; } // добавлено
+
         #endregion
 
         #region Constructors
 
-        /// <summary>
-        /// Основной конструктор для создания оценки
-        /// </summary>
         public Grade(Teacher teacher, Student student, Lesson lesson, DateTime gradeTime, Mark mark)
-            : this(Guid.NewGuid(), teacher, student, lesson, gradeTime, mark)
+    : this(Guid.NewGuid(), teacher, student, lesson, gradeTime, mark)
         {
         }
 
@@ -54,20 +57,22 @@ namespace Education.Domain.Entities
             ValidateGrade(teacher, student, lesson, gradeTime, mark);
 
             Teacher = teacher;
+            TeacherId = teacher.Id; // добавлено
+
             Student = student;
-            Lesson = lesson;
+            StudentId = student.Id;
+
+            //Lesson = lesson;
+            LessonId = lesson.Id;
+
             GradedTime = gradeTime;
             Mark = mark;
-
-            StudentId = student.Id;
-            LessonId = lesson.Id;
         }
 
         /// <summary>
         /// Конструктор для EF
         /// </summary>
         protected Grade() : base(Guid.NewGuid()) { }
-
         #endregion
 
         #region Validation

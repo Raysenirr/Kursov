@@ -34,6 +34,9 @@ namespace Education.Infrastructure.Migrations
                     b.Property<Guid>("LessonId")
                         .HasColumnType("uuid");
 
+                    b.Property<Guid?>("LessonId1")
+                        .HasColumnType("uuid");
+
                     b.Property<int>("Mark")
                         .HasColumnType("integer");
 
@@ -43,16 +46,13 @@ namespace Education.Infrastructure.Migrations
                     b.Property<Guid>("TeacherId")
                         .HasColumnType("uuid");
 
-                    b.Property<Guid?>("TeacherId1")
-                        .HasColumnType("uuid");
-
                     b.HasKey("Id");
 
                     b.HasIndex("LessonId");
 
-                    b.HasIndex("TeacherId");
+                    b.HasIndex("LessonId1");
 
-                    b.HasIndex("TeacherId1");
+                    b.HasIndex("TeacherId");
 
                     b.HasIndex("StudentId", "LessonId")
                         .IsUnique();
@@ -88,6 +88,9 @@ namespace Education.Infrastructure.Migrations
                     b.Property<Guid>("LessonId")
                         .HasColumnType("uuid");
 
+                    b.Property<Guid?>("LessonId1")
+                        .HasColumnType("uuid");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(200)
@@ -96,6 +99,8 @@ namespace Education.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("LessonId");
+
+                    b.HasIndex("LessonId1");
 
                     b.ToTable("Homeworks");
                 });
@@ -130,16 +135,11 @@ namespace Education.Infrastructure.Migrations
                     b.Property<Guid>("GroupId")
                         .HasColumnType("uuid");
 
-                    b.Property<int>("State")
-                        .HasColumnType("integer");
+                    b.Property<string>("State")
+                        .IsRequired()
+                        .HasColumnType("text");
 
-                    b.Property<Guid?>("TeacherId")
-                        .HasColumnType("uuid");
-
-                    b.Property<Guid?>("TeacherId1")
-                        .HasColumnType("uuid");
-
-                    b.Property<Guid>("TeacherId2")
+                    b.Property<Guid>("TeacherId")
                         .HasColumnType("uuid");
 
                     b.Property<string>("Topic")
@@ -152,10 +152,6 @@ namespace Education.Infrastructure.Migrations
                     b.HasIndex("GroupId");
 
                     b.HasIndex("TeacherId");
-
-                    b.HasIndex("TeacherId1");
-
-                    b.HasIndex("TeacherId2");
 
                     b.ToTable("Lessons");
                 });
@@ -214,11 +210,15 @@ namespace Education.Infrastructure.Migrations
 
             modelBuilder.Entity("Education.Domain.Entities.Grade", b =>
                 {
-                    b.HasOne("Education.Domain.Entities.Lesson", "Lesson")
-                        .WithMany("Grades")
+                    b.HasOne("Education.Domain.Entities.Lesson", null)
+                        .WithMany("_grades")
                         .HasForeignKey("LessonId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("Education.Domain.Entities.Lesson", null)
+                        .WithMany("AssignedGrades")
+                        .HasForeignKey("LessonId1");
 
                     b.HasOne("Education.Domain.Entities.Student", "Student")
                         .WithMany("_grades")
@@ -229,14 +229,8 @@ namespace Education.Infrastructure.Migrations
                     b.HasOne("Education.Domain.Entities.Teacher", "Teacher")
                         .WithMany("_grades")
                         .HasForeignKey("TeacherId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
-
-                    b.HasOne("Education.Domain.Entities.Teacher", null)
-                        .WithMany("AssignedGrades")
-                        .HasForeignKey("TeacherId1");
-
-                    b.Navigation("Lesson");
 
                     b.Navigation("Student");
 
@@ -246,10 +240,14 @@ namespace Education.Infrastructure.Migrations
             modelBuilder.Entity("Education.Domain.Entities.Homework", b =>
                 {
                     b.HasOne("Education.Domain.Entities.Lesson", "Lesson")
-                        .WithMany("Homeworks")
+                        .WithMany("_homeworks")
                         .HasForeignKey("LessonId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("Education.Domain.Entities.Lesson", null)
+                        .WithMany("AssignedHomeworks")
+                        .HasForeignKey("LessonId1");
 
                     b.Navigation("Lesson");
                 });
@@ -257,7 +255,7 @@ namespace Education.Infrastructure.Migrations
             modelBuilder.Entity("Education.Domain.Entities.HomeworkSubmission", b =>
                 {
                     b.HasOne("Education.Domain.Entities.Homework", "Homework")
-                        .WithMany()
+                        .WithMany("_submissions")
                         .HasForeignKey("HomeworkId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -281,18 +279,10 @@ namespace Education.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Education.Domain.Entities.Teacher", null)
-                        .WithMany("ScheduledLessons")
-                        .HasForeignKey("TeacherId");
-
-                    b.HasOne("Education.Domain.Entities.Teacher", null)
-                        .WithMany("TeachedLessons")
-                        .HasForeignKey("TeacherId1");
-
                     b.HasOne("Education.Domain.Entities.Teacher", "Teacher")
                         .WithMany("_lessons")
-                        .HasForeignKey("TeacherId2")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .HasForeignKey("TeacherId")
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Group");
@@ -374,11 +364,20 @@ namespace Education.Infrastructure.Migrations
                     b.Navigation("Students");
                 });
 
+            modelBuilder.Entity("Education.Domain.Entities.Homework", b =>
+                {
+                    b.Navigation("_submissions");
+                });
+
             modelBuilder.Entity("Education.Domain.Entities.Lesson", b =>
                 {
-                    b.Navigation("Grades");
+                    b.Navigation("AssignedGrades");
 
-                    b.Navigation("Homeworks");
+                    b.Navigation("AssignedHomeworks");
+
+                    b.Navigation("_grades");
+
+                    b.Navigation("_homeworks");
                 });
 
             modelBuilder.Entity("Education.Domain.Entities.Student", b =>
@@ -388,12 +387,6 @@ namespace Education.Infrastructure.Migrations
 
             modelBuilder.Entity("Education.Domain.Entities.Teacher", b =>
                 {
-                    b.Navigation("AssignedGrades");
-
-                    b.Navigation("ScheduledLessons");
-
-                    b.Navigation("TeachedLessons");
-
                     b.Navigation("_grades");
 
                     b.Navigation("_lessons");

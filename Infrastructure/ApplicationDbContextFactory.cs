@@ -11,7 +11,7 @@ public class ApplicationDbContextFactory : IDesignTimeDbContextFactory<Applicati
         var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
 
         // Пример строки подключения — замени на свою при необходимости
-        optionsBuilder.UseNpgsql("Server=localhost;Port=5432;Database=Educations;UserID=postgres;Password=123;");
+        optionsBuilder.UseNpgsql("Server=localhost;Port=5432;Database=Education2;UserID=postgres;Password=123;");
 
         return new ApplicationDbContext(optionsBuilder.Options);
     }

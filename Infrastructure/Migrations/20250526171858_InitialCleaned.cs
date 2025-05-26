@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Education.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class InitialCleaned : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -79,12 +79,10 @@ namespace Education.Infrastructure.Migrations
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
                     GroupId = table.Column<Guid>(type: "uuid", nullable: false),
-                    TeacherId2 = table.Column<Guid>(type: "uuid", nullable: false),
                     ClassTime = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     Topic = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
-                    State = table.Column<int>(type: "integer", nullable: false),
-                    TeacherId = table.Column<Guid>(type: "uuid", nullable: true),
-                    TeacherId1 = table.Column<Guid>(type: "uuid", nullable: true)
+                    State = table.Column<string>(type: "text", nullable: false),
+                    TeacherId = table.Column<Guid>(type: "uuid", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -99,18 +97,8 @@ namespace Education.Infrastructure.Migrations
                         name: "FK_Lessons_Teachers_TeacherId",
                         column: x => x.TeacherId,
                         principalTable: "Teachers",
-                        principalColumn: "Id");
-                    table.ForeignKey(
-                        name: "FK_Lessons_Teachers_TeacherId1",
-                        column: x => x.TeacherId1,
-                        principalTable: "Teachers",
-                        principalColumn: "Id");
-                    table.ForeignKey(
-                        name: "FK_Lessons_Teachers_TeacherId2",
-                        column: x => x.TeacherId2,
-                        principalTable: "Teachers",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -118,12 +106,12 @@ namespace Education.Infrastructure.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
-                    TeacherId = table.Column<Guid>(type: "uuid", nullable: false),
                     GradedTime = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     Mark = table.Column<int>(type: "integer", nullable: false),
                     StudentId = table.Column<Guid>(type: "uuid", nullable: false),
                     LessonId = table.Column<Guid>(type: "uuid", nullable: false),
-                    TeacherId1 = table.Column<Guid>(type: "uuid", nullable: true)
+                    TeacherId = table.Column<Guid>(type: "uuid", nullable: false),
+                    LessonId1 = table.Column<Guid>(type: "uuid", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -135,6 +123,11 @@ namespace Education.Infrastructure.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
+                        name: "FK_Grades_Lessons_LessonId1",
+                        column: x => x.LessonId1,
+                        principalTable: "Lessons",
+                        principalColumn: "Id");
+                    table.ForeignKey(
                         name: "FK_Grades_Students_StudentId",
                         column: x => x.StudentId,
                         principalTable: "Students",
@@ -145,12 +138,7 @@ namespace Education.Infrastructure.Migrations
                         column: x => x.TeacherId,
                         principalTable: "Teachers",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Grades_Teachers_TeacherId1",
-                        column: x => x.TeacherId1,
-                        principalTable: "Teachers",
-                        principalColumn: "Id");
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -159,7 +147,8 @@ namespace Education.Infrastructure.Migrations
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
                     LessonId = table.Column<Guid>(type: "uuid", nullable: false),
-                    Title = table.Column<string>(type: "character varying(200)", maxLength: 200, nullable: false)
+                    Title = table.Column<string>(type: "character varying(200)", maxLength: 200, nullable: false),
+                    LessonId1 = table.Column<Guid>(type: "uuid", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -170,6 +159,11 @@ namespace Education.Infrastructure.Migrations
                         principalTable: "Lessons",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Homeworks_Lessons_LessonId1",
+                        column: x => x.LessonId1,
+                        principalTable: "Lessons",
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateTable(
@@ -227,6 +221,11 @@ namespace Education.Infrastructure.Migrations
                 column: "LessonId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Grades_LessonId1",
+                table: "Grades",
+                column: "LessonId1");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Grades_StudentId_LessonId",
                 table: "Grades",
                 columns: new[] { "StudentId", "LessonId" },
@@ -238,11 +237,6 @@ namespace Education.Infrastructure.Migrations
                 column: "TeacherId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Grades_TeacherId1",
-                table: "Grades",
-                column: "TeacherId1");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Groups_Name",
                 table: "Groups",
                 column: "Name",
@@ -252,6 +246,11 @@ namespace Education.Infrastructure.Migrations
                 name: "IX_Homeworks_LessonId",
                 table: "Homeworks",
                 column: "LessonId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Homeworks_LessonId1",
+                table: "Homeworks",
+                column: "LessonId1");
 
             migrationBuilder.CreateIndex(
                 name: "IX_HomeworkSubmissions_HomeworkId",
@@ -267,16 +266,6 @@ namespace Education.Infrastructure.Migrations
                 name: "IX_Lessons_TeacherId",
                 table: "Lessons",
                 column: "TeacherId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Lessons_TeacherId1",
-                table: "Lessons",
-                column: "TeacherId1");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Lessons_TeacherId2",
-                table: "Lessons",
-                column: "TeacherId2");
 
             migrationBuilder.CreateIndex(
                 name: "IX_StudentLessons__lessonsId",
