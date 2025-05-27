@@ -21,18 +21,24 @@ public class GradeConfiguration : IEntityTypeConfiguration<Grade>
                );
 
         builder.HasOne(x => x.Student)
-               .WithMany("_grades")
+               .WithMany("_grades") // к private _grades в Student
                .HasForeignKey(x => x.StudentId)
                .OnDelete(DeleteBehavior.Cascade)
                .IsRequired();
 
-        builder.HasOne<Lesson>()
+        builder.HasOne<Lesson>() // 👈 без лямбды!
        .WithMany("_grades")
        .HasForeignKey(x => x.LessonId)
-       .OnDelete(DeleteBehavior.Cascade)
-       .IsRequired();
+       .OnDelete(DeleteBehavior.Cascade);
 
-        builder.Metadata.FindNavigation("_lesson")?.SetPropertyAccessMode(PropertyAccessMode.Field); // 👈 если добавлен
+
+        builder.HasOne(x => x.Teacher)
+               .WithMany("_grades") // к private _grades в Teacher
+               .HasForeignKey(x => x.TeacherId)
+               .OnDelete(DeleteBehavior.Restrict)
+               .IsRequired();
+
+        builder.Navigation(nameof(Grade.Lesson)).UsePropertyAccessMode(PropertyAccessMode.Field);
 
 
         builder.Navigation(x => x.Student).AutoInclude();
@@ -41,4 +47,5 @@ public class GradeConfiguration : IEntityTypeConfiguration<Grade>
         builder.HasIndex(x => new { x.StudentId, x.LessonId }).IsUnique();
     }
 }
+
 

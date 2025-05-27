@@ -19,19 +19,16 @@ namespace Education.Domain.Entities
         /// <summary>
         /// Навигация к домашним заданиям (используется EF)
         /// </summary>
-        private readonly ICollection<Homework> _homeworks = new List<Homework>();
-        public IReadOnlyCollection<Homework> AssignedHomeworks => new ReadOnlyCollection<Homework>(_homeworks.ToList());
-
-        // 👉 Добавь это свойство для EF
-        [NotMapped]
-        public ICollection<Homework> Homeworks => (ICollection<Homework>)_homeworks;
-
-
         private readonly ICollection<Grade> _grades = new List<Grade>();
-        
-        //public IReadOnlyCollection<Grade> Grades => new ReadOnlyCollection<Grade>(_grades.ToList());
+        private readonly ICollection<Homework> _homeworks = new List<Homework>();
 
-        public IReadOnlyCollection<Grade> AssignedGrades => new ReadOnlyCollection<Grade>(_grades.ToList());
+        [NotMapped]
+        public IReadOnlyCollection<Grade> AssignedGrades => _grades.ToList().AsReadOnly();
+
+        [NotMapped]
+        public IReadOnlyCollection<Homework> AssignedHomeworks => _homeworks.ToList().AsReadOnly();
+
+        public IReadOnlyCollection<Homework> Homeworks => _homeworks.ToList().AsReadOnly();
 
         protected Lesson(Guid id, Group group, Teacher teacher, LessonTopic topic,
                  DateTime classTime, LessonStatus status) : base(id)
@@ -79,18 +76,18 @@ namespace Education.Domain.Entities
             if (homework.Lesson != this)
                 throw new HomeworkLessonMismatchException(this, homework);
 
-            Homeworks.Add(homework);
+            _homeworks.Add(homework);
         }
 
         public Homework? GetHomeworkById(Guid id)
         {
-            return Homeworks.FirstOrDefault(h => h.Id == id);
+            return _homeworks.FirstOrDefault(h => h.Id == id);
         }
 
         public IReadOnlyCollection<HomeworkSubmission> GetAllSubmissions()
         {
             return new ReadOnlyCollection<HomeworkSubmission>(
-                Homeworks.SelectMany(h => h.Submissions).ToList());
+                _homeworks.SelectMany(h => h.Submissions).ToList());
         }
 
         private static void ValidateLessonSchedule(DateTime classTime)
@@ -121,6 +118,8 @@ namespace Education.Domain.Entities
             if (lesson.State == LessonStatus.Teached)
                 throw new LessonAlreadyTeachedException(lesson);
         }
+        public IEnumerable<Homework> GetHomeworks() => _homeworks;
+
     }
 }
 

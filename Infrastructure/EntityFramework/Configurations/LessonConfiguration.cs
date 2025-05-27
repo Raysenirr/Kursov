@@ -34,16 +34,36 @@ public class LessonConfiguration : IEntityTypeConfiguration<Lesson>
                .OnDelete(DeleteBehavior.Restrict)
                .IsRequired();
 
-        builder.HasMany("_homeworks")
+        builder.HasMany<Grade>("_grades")
+       .WithOne("Lesson")
+       .HasForeignKey("LessonId")
+       .OnDelete(DeleteBehavior.Cascade);
+
+        builder.HasMany<Homework>("_homeworks")
                .WithOne("Lesson")
                .HasForeignKey("LessonId")
-               .OnDelete(DeleteBehavior.Cascade)
-               .IsRequired();
+               .OnDelete(DeleteBehavior.Cascade);
+
+
+        builder.Metadata.FindNavigation("_grades")!.SetPropertyAccessMode(PropertyAccessMode.Field);
+        builder.Metadata.FindNavigation("_homeworks")!.SetPropertyAccessMode(PropertyAccessMode.Field);
+
+        // УБРАТЬ:
+        // builder.Metadata.FindNavigation("_grades")!
+        //        .SetPropertyAccessMode(PropertyAccessMode.Field);
+
+
+        // 👇 это уже не нужно, если выше написано
+        // builder.Metadata.FindNavigation("_grades")?.SetPropertyAccessMode(PropertyAccessMode.Field);
+
 
         builder.Metadata.FindNavigation("_homeworks")!
                .SetPropertyAccessMode(PropertyAccessMode.Field);
 
-        builder.Ignore(x => x.Homeworks); // ← оставляем только для обёртки
+        builder.Ignore(x => x.Homeworks);
+        builder.Ignore(x => x.AssignedGrades);
+        builder.Ignore(x => x.AssignedHomeworks);
+
     }
 }
 

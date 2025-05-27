@@ -34,9 +34,6 @@ namespace Education.Infrastructure.Migrations
                     b.Property<Guid>("LessonId")
                         .HasColumnType("uuid");
 
-                    b.Property<Guid?>("LessonId1")
-                        .HasColumnType("uuid");
-
                     b.Property<int>("Mark")
                         .HasColumnType("integer");
 
@@ -49,8 +46,6 @@ namespace Education.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("LessonId");
-
-                    b.HasIndex("LessonId1");
 
                     b.HasIndex("TeacherId");
 
@@ -88,9 +83,6 @@ namespace Education.Infrastructure.Migrations
                     b.Property<Guid>("LessonId")
                         .HasColumnType("uuid");
 
-                    b.Property<Guid?>("LessonId1")
-                        .HasColumnType("uuid");
-
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(200)
@@ -99,8 +91,6 @@ namespace Education.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("LessonId");
-
-                    b.HasIndex("LessonId1");
 
                     b.ToTable("Homeworks");
                 });
@@ -210,15 +200,11 @@ namespace Education.Infrastructure.Migrations
 
             modelBuilder.Entity("Education.Domain.Entities.Grade", b =>
                 {
-                    b.HasOne("Education.Domain.Entities.Lesson", null)
+                    b.HasOne("Education.Domain.Entities.Lesson", "Lesson")
                         .WithMany("_grades")
                         .HasForeignKey("LessonId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("Education.Domain.Entities.Lesson", null)
-                        .WithMany("AssignedGrades")
-                        .HasForeignKey("LessonId1");
 
                     b.HasOne("Education.Domain.Entities.Student", "Student")
                         .WithMany("_grades")
@@ -232,6 +218,8 @@ namespace Education.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
+                    b.Navigation("Lesson");
+
                     b.Navigation("Student");
 
                     b.Navigation("Teacher");
@@ -244,10 +232,6 @@ namespace Education.Infrastructure.Migrations
                         .HasForeignKey("LessonId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("Education.Domain.Entities.Lesson", null)
-                        .WithMany("AssignedHomeworks")
-                        .HasForeignKey("LessonId1");
 
                     b.Navigation("Lesson");
                 });
@@ -371,10 +355,6 @@ namespace Education.Infrastructure.Migrations
 
             modelBuilder.Entity("Education.Domain.Entities.Lesson", b =>
                 {
-                    b.Navigation("AssignedGrades");
-
-                    b.Navigation("AssignedHomeworks");
-
                     b.Navigation("_grades");
 
                     b.Navigation("_homeworks");

@@ -20,10 +20,9 @@ namespace Education.Domain.Entities
         public Student Student { get; private set; }
 
         /// <summary> Урок, за который поставлена оценка </summary>
-        [NotMapped] // 👈 чтобы EF не трогал это свойство
-        public Lesson Lesson => _lesson;
 
-        private readonly Lesson _lesson;
+
+        public Lesson Lesson { get; private set; }
 
         /// <summary> Время выставления оценки </summary>
         public DateTime GradedTime { get; private set; }

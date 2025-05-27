@@ -29,7 +29,16 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
         // Подключает все IEntityTypeConfiguration<T> из текущей сборки
         modelBuilder.ApplyConfigurationsFromAssembly(GetType().Assembly);
 
-
-    }
+        foreach (var entity in modelBuilder.Model.GetEntityTypes())
+        {
+            foreach (var navigation in entity.GetNavigations())
+            {
+                if (navigation.PropertyInfo == null && navigation.FieldInfo != null)
+                {
+                    navigation.SetPropertyAccessMode(PropertyAccessMode.Field);
+                }
+            }
+        }
+        }
 }
 
