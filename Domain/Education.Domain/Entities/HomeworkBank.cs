@@ -12,13 +12,12 @@ namespace Education.Domain.Entities;
 public class HomeworkBank
 {
     #region Свойства
-    private readonly ICollection<HomeworkTemplate> _templates = new List<HomeworkTemplate>();
+    /// <summary> Внутренний список шаблонов домашних заданий </summary>
+    private readonly ICollection<HomeworkTemplate> _templates = [];
 
-    /// <summary>
-    /// Получить все шаблоны в виде коллекции (не маппится EF)
-    /// </summary>
+    /// <summary> Коллекция шаблонов, доступная только для чтения (не сохраняется в БД) </summary>
     [NotMapped]
-    public IReadOnlyCollection<HomeworkTemplate> Templates => new ReadOnlyCollection<HomeworkTemplate>(_templates.ToList());
+    public IReadOnlyCollection<HomeworkTemplate> Templates => [.. _templates];
     #endregion
 
     #region Конструкторы
@@ -31,9 +30,6 @@ public class HomeworkBank
     {
     }
 
-    /// <summary>
-    /// Конструктор для восстановления из БД 
-    /// </summary>
     protected HomeworkBank(ICollection<HomeworkTemplate> templates)
     {
         _templates = templates ?? throw new TemplatesIsNullException();
@@ -42,6 +38,7 @@ public class HomeworkBank
     #endregion
 
     #region Методы
+    /// <summary> Добавляет новый шаблон домашнего задания по теме урока, если такого ещё нет </summary>
     public void AddTemplate(LessonTopic topic, HomeworkTitle title)
     {
         if (title == null)
@@ -52,12 +49,12 @@ public class HomeworkBank
 
         _templates.Add(new HomeworkTemplate(topic, title));
     }
-
+    /// <summary> Ищет шаблон домашнего задания по заданной теме урока </summary>
     public HomeworkTemplate? FindTemplate(LessonTopic topic)
     {
         return _templates.FirstOrDefault(t => t.Topic.Equals(topic));
     }
-
+    /// <summary> Удаляет шаблон домашнего задания по теме, если он существует </summary>
     public bool RemoveTemplate(LessonTopic topic)
     {
         var template = _templates.FirstOrDefault(t => t.Topic.Equals(topic));

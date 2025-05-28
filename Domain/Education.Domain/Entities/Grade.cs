@@ -13,29 +13,29 @@ namespace Education.Domain.Entities
     {
         #region Свойства
 
-        /// <summary> Преподаватель, поставивший оценку </summary>
+        /// <summary> Преподаватель, который поставил оценку </summary>
         public Teacher Teacher { get; private set; }
 
-        /// <summary> Студент, получивший оценку </summary>
+        /// <summary> Студент, которому поставлена оценка </summary>
         public Student Student { get; private set; }
 
         /// <summary> Урок, за который поставлена оценка </summary>
-
         public Lesson Lesson { get; private set; }
 
-        /// <summary> Время выставления оценки </summary>
+        /// <summary> Время, когда была выставлена оценка </summary>
         public DateTime GradedTime { get; private set; }
 
-        /// <summary> Значение оценки </summary>
+        /// <summary> Значение оценки (оценка как таковая) </summary>
         public Mark Mark { get; private set; }
 
-        /// <summary> Внешний ключ для студента </summary>
+        /// <summary> Идентификатор студента, получившего оценку </summary>
         public Guid StudentId { get; private set; }
 
-        /// <summary> Внешний ключ для урока </summary>
+        /// <summary> Идентификатор урока, за который поставлена оценка </summary>
         public Guid LessonId { get; private set; }
 
-        public Guid TeacherId { get; private set; } // добавлено
+        /// <summary> Идентификатор преподавателя, поставившего оценку </summary>
+        public Guid TeacherId { get; private set; }
 
         #endregion
 
@@ -46,9 +46,6 @@ namespace Education.Domain.Entities
         {
         }
 
-        /// <summary>
-        /// Конструктор для восстановления из БД
-        /// </summary>
         protected Grade(Guid id, Teacher teacher, Student student, Lesson lesson, DateTime gradeTime, Mark mark)
             : base(id)
         {
@@ -74,6 +71,8 @@ namespace Education.Domain.Entities
 
         #region Валидация
 
+
+        /// <summary> Корректность создаваемой оценки </summary>
         private static void ValidateGrade(Teacher teacher, Student student, Lesson lesson,
                                           DateTime gradeTime, Mark mark)
         {

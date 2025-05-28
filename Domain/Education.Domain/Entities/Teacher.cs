@@ -14,23 +14,26 @@ namespace Education.Domain.Entities
     public class Teacher : Person
     {
         #region Свойства
-        private readonly ICollection<Lesson> _lessons = new List<Lesson>();
-        private readonly ICollection<Grade> _grades = new List<Grade>();
+        /// <summary> Внутренний список всех уроков преподавателя </summary>
+        private readonly ICollection<Lesson> _lessons = [];
+
+        /// <summary> Внутренний список всех выставленных оценок </summary>
+        private readonly ICollection<Grade> _grades = [];
+
+        /// <summary> Банк шаблонов домашних заданий, доступный преподавателю </summary>
         private readonly HomeworkBank _homeworkBank;
 
+        /// <summary> Доступ к банку домашних заданий (только для чтения) </summary>
         public HomeworkBank HomeworkBank => _homeworkBank;
 
-        ///<summary>Проведённые уроки</summary>
-        public IReadOnlyCollection<Lesson> TeachedLessons =>
-            _lessons.Where(l => l.State == LessonStatus.Teached).ToList().AsReadOnly();
+        /// <summary> Список уроков, которые преподаватель уже провёл </summary>
+        public IReadOnlyCollection<Lesson> TeachedLessons => [.. _lessons.Where(l => l.State == LessonStatus.Teached)];
 
-        ///<summary>Запланированные уроки</summary>
-        public IReadOnlyCollection<Lesson> ScheduledLessons =>
-            _lessons.Where(l => l.State == LessonStatus.New).ToList().AsReadOnly();
+        /// <summary> Список запланированных уроков (ещё не проведены) </summary>
+        public IReadOnlyCollection<Lesson> ScheduledLessons => [.. _lessons.Where(l => l.State == LessonStatus.New)];
 
-        ///<summary>Оценки, выставленные преподавателем</summary>
-        public IReadOnlyCollection<Grade> AssignedGrades =>
-            _grades.ToList().AsReadOnly();
+        /// <summary> Все оценки, выставленные преподавателем </summary>
+        public IReadOnlyCollection<Grade> AssignedGrades =>[.. _grades];
         #endregion
 
         #region Конструкторы
@@ -72,7 +75,7 @@ namespace Education.Domain.Entities
         #endregion
 
         #region Методы
-
+        /// <summary> Помечает урок как проведённый и добавляет его в список, если это новый урок </summary>
         public void TeachLesson(Lesson lesson)
         {
             if (lesson.State == LessonStatus.Teached)
@@ -86,7 +89,7 @@ namespace Education.Domain.Entities
             if (!_lessons.Contains(lesson))
                 _lessons.Add(lesson);
         }
-
+        /// <summary> Добавляет запланированный урок в список преподавателя </summary>
         public void GradeStudent(Student student, Mark mark, Lesson lesson, Homework homework)
         {
             if (lesson.State != LessonStatus.Teached)
@@ -105,7 +108,7 @@ namespace Education.Domain.Entities
             student.GetGrade(grade);
             _grades.Add(grade);
         }
-
+        /// <summary> Назначает домашнюю работу на урок из шаблона банка заданий по теме урока </summary>
         internal void ScheduleLesson(Lesson lesson)
         {
             if (lesson.State != LessonStatus.New)
@@ -114,7 +117,7 @@ namespace Education.Domain.Entities
             if (!_lessons.Contains(lesson))
                 _lessons.Add(lesson);
         }
-
+        /// <summary> Назначает домашнюю работу на урок из шаблона банка заданий по теме урока </summary>
         public Homework AssignHomeworkFromBank(Lesson lesson)
         {
             var template = _homeworkBank.FindTemplate(lesson.Topic);
@@ -126,17 +129,17 @@ namespace Education.Domain.Entities
             lesson.AddHomework(homework);
             return homework;
         }
-
+        /// <summary> Возвращает список всех групп, которым преподаватель вёл уроки </summary>
         public IReadOnlyCollection<Group> GetTeachedGroups()
         {
             return _lessons.Select(l => l.Group).Distinct().ToList().AsReadOnly();
         }
-
+        /// <summary> Возвращает список всех студентов, которых преподаватель обучал </summary>
         public IReadOnlyCollection<Student> GetTeachedStudents()
         {
             return _lessons.SelectMany(l => l.Group.Students).Distinct().ToList().AsReadOnly();
         }
-
+        /// <summary> Возвращает все сдачи домашних заданий по проведённым урокам </summary>
         public IReadOnlyCollection<SubmittedHomeworkInfo> GetSubmittedHomeworks()
         {
             var result = new List<SubmittedHomeworkInfo>();

@@ -11,16 +11,13 @@ namespace Education.Domain.Entities
     public class Group : Entity<Guid>
     {
         #region Свойства
-        private readonly ICollection<Student> _students = new Collection<Student>();
+        /// <summary> Внутреннее хранилище студентов в группе </summary>
+        private readonly ICollection<Student> _students = [];
 
-        /// <summary>
-        /// Список студентов в группе (только для чтения)
-        /// </summary>
-        public IReadOnlyCollection<Student> Students => new ReadOnlyCollection<Student>(_students.ToList());
+        /// <summary> Список студентов группы, доступный только для чтения </summary>
+        public IReadOnlyCollection<Student> Students => [.. _students];
 
-        /// <summary>
-        /// Название группы
-        /// </summary>
+        /// <summary> Название группы </summary>
         public GroupName Name { get; private set; }
 
         #endregion
@@ -32,9 +29,6 @@ namespace Education.Domain.Entities
         /// </summary>
         public Group(GroupName name) : this(Guid.NewGuid(), name) { }
 
-        /// <summary>
-        /// Конструктор для восстановления из БД
-        /// </summary>
         protected Group(Guid id, GroupName name) : base(id)
         {
             Name = name ?? throw new GroupIsNullException();

@@ -15,16 +15,21 @@ namespace Education.Domain.Entities
     public class SubmittedHomeworkInfo
     {
         #region Свойства
+        /// <summary> Домашнее задание, которое сдал студент </summary>
         public Homework Homework { get; }
+
+        /// <summary> Студент, который сдал задание </summary>
         public Student Student { get; }
+
+        /// <summary> Дата и время, когда задание было сдано </summary>
         public DateTime SubmittedAt { get; }
+
+        /// <summary> Флаг, указывающий, было ли задание сдано с опозданием </summary>
         public bool IsLate { get; }
         #endregion
 
         #region Конструкторы
-        /// <summary>
-        /// Основной конструктор
-        /// </summary>
+
         public SubmittedHomeworkInfo(Homework homework, Student student, DateTime submittedAt)
         {
             Homework = homework ?? throw new HomeworkIsNullException();
@@ -33,9 +38,6 @@ namespace Education.Domain.Entities
             IsLate = submittedAt > homework.Lesson.ClassTime.AddSeconds(1);
         }
 
-        /// <summary>
-        /// Для БД
-        /// </summary>
         public SubmittedHomeworkInfo(HomeworkSubmission submission)
             : this(submission.Homework, submission.Student, submission.SubmissionDate)
         {

@@ -10,12 +10,19 @@ namespace Education.Domain.Entities
     public class Student : Person
     {
         #region Свойства
+        /// <summary> Внутренний список посещённых уроков </summary>
         private readonly ICollection<Lesson> _lessons = [];
+
+        /// <summary> Внутренний список полученных оценок </summary>
         private readonly ICollection<Grade> _grades = [];
 
+        /// <summary> Список уроков, которые студент посетил </summary>
         public IReadOnlyCollection<Lesson> AttendedLessons => [.. _lessons];
+
+        /// <summary> Список всех оценок, полученных студентом </summary>
         public IReadOnlyCollection<Grade> RecievedGrades => [.. _grades];
 
+        /// <summary> Группа, к которой относится студент </summary>
         public Group Group { get; protected set; }
         #endregion
 
@@ -37,7 +44,7 @@ namespace Education.Domain.Entities
         #endregion
 
         #region Методы
-
+        /// <summary> Отмечает, что студент посетил указанный урок </summary>
         public void AttendLesson(Lesson lesson)
         {
             if (lesson.State != LessonStatus.Teached)
@@ -52,6 +59,7 @@ namespace Education.Domain.Entities
             _lessons.Add(lesson);
         }
 
+        /// <summary> Отправляет домашнее задание по уроку, если студент его посещал </summary>
         public void SubmitHomework(Homework homework, DateTime submissionDate)
         {
             if (homework == null)
@@ -68,7 +76,7 @@ namespace Education.Domain.Entities
 
             homework.SubmitBy(this, submissionDate);
         }
-
+        /// <summary> Возвращает оценку за конкретный урок </summary>
         public Grade GetGradeByLesson(Lesson lesson)
         {
             if (lesson == null)
@@ -81,7 +89,7 @@ namespace Education.Domain.Entities
 
             return grade;
         }
-
+        /// <summary> Добавляет оценку студенту, если она ему принадлежит и ещё не была добавлена </summary>
         internal void GetGrade(Grade grade)
         {
             if (grade.Student != this)
@@ -95,7 +103,7 @@ namespace Education.Domain.Entities
 
             _grades.Add(grade);
         }
-
+        /// <summary> Возвращает список всех домашних заданий, назначенных студенту на уроках </summary>
         public IReadOnlyCollection<Homework> GetAssignedHomeworks()
         {
             var result = new List<Homework>();
@@ -147,7 +155,6 @@ namespace Education.Domain.Entities
         {
             return RecievedGrades;
         }
-
 
         #endregion
     }

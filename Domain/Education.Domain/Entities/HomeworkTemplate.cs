@@ -9,14 +9,15 @@ namespace Education.Domain.Entities
     public class HomeworkTemplate
     {
         #region Свойства
+        /// <summary> Тема урока, к которой относится шаблон домашнего задания </summary>
         public LessonTopic Topic { get; private set; }
+
+        /// <summary> Заголовок (название) шаблона домашнего задания </summary>
         public HomeworkTitle Title { get; private set; }
         #endregion
 
         #region Конструкторы
-        /// <summary>
-        /// Конструктор для доменной логики.
-        /// </summary>
+
         public HomeworkTemplate(LessonTopic topic, HomeworkTitle title)
         {
             Topic = topic ?? throw new LessonTopicIsNullsException();

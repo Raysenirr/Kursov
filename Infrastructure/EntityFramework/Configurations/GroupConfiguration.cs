@@ -17,13 +17,25 @@ public class GroupConfiguration : IEntityTypeConfiguration<Group>
 {
     public void Configure(EntityTypeBuilder<Group> builder)
     {
-        builder.HasKey(x => x.Id);
-        builder.Property(x => x.Id).ValueGeneratedOnAdd();
-        builder.Property(x => x.Name)
-                .HasConversion(name => name.Value, name => new GroupName(name))
-                .IsRequired()
-                .HasMaxLength(10);
-        builder.HasIndex(x => x.Name).IsUnique();
-        builder.HasMany(x => x.Students).WithOne(x => x.Group);
-    }
+        // Устанавливаем первичный ключ по Id
+        builder.HasKey(x => x.Id);
+
+        // Указываем, что Id будет сгенерирован автоматически при добавлении
+        builder.Property(x => x.Id).ValueGeneratedOnAdd();
+
+        // Настраиваем маппинг значения GroupName через ValueObject
+        builder.Property(x => x.Name)
+.HasConversion(                       // преобразование значения при сохранении/чтении
+                name => name.Value,              // из GroupName в string (для БД)
+                name => new GroupName(name))     // из string обратно в GroupName (для модели)
+            .IsRequired()                        // значение обязательно
+            .HasMaxLength(10);                   // ограничение длины строки (на уровне БД)
+
+        // Создаём уникальный индекс по имени группы
+        builder.HasIndex(x => x.Name).IsUnique();
+
+        // Один ко многим: группа имеет много студентов, каждый студент принадлежит одной группе
+        builder.HasMany(x => x.Students)
+.WithOne(x => x.Group);           // навигационное свойство в Student
+    }
 }
