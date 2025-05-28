@@ -14,11 +14,14 @@ namespace Education.Domain.Entities
     /// </summary>
     public class SubmittedHomeworkInfo
     {
+        #region Свойства
         public Homework Homework { get; }
         public Student Student { get; }
         public DateTime SubmittedAt { get; }
         public bool IsLate { get; }
+        #endregion
 
+        #region Конструкторы
         /// <summary>
         /// Основной конструктор
         /// </summary>
@@ -46,5 +49,6 @@ namespace Education.Domain.Entities
             Homework = null!;
             Student = null!;
         }
+        #endregion
     }
 }

@@ -11,6 +11,7 @@ namespace Education.Domain.Entities
     /// </summary>
     public class Homework : Entity<Guid>
     {
+        #region Свойства
         public Lesson Lesson { get; private set; }
         public Guid LessonId { get; private set; }
         public HomeworkTitle Title { get; private set; }
@@ -20,6 +21,8 @@ namespace Education.Domain.Entities
         [NotMapped]
         public IReadOnlyCollection<HomeworkSubmission> Submissions => new ReadOnlyCollection<HomeworkSubmission>(_submissions.ToList());
 
+        #endregion
+        #region Конструкторы
         /// <summary>
         /// Конструктор для EF Core
         /// </summary>
@@ -47,7 +50,8 @@ namespace Education.Domain.Entities
             _submissions = new List<HomeworkSubmission>();
         }
 
-
+        #endregion
+        #region Методы
         public void SubmitBy(Student student, DateTime submissionDate)
         {
             if (student == null)
@@ -74,6 +78,7 @@ namespace Education.Domain.Entities
             if (submissionDate > DateTime.UtcNow.AddMinutes(1))
                 throw new InvalidSubmissionDateException(submissionDate);
         }
+        #endregion
     }
 }
 

@@ -10,6 +10,7 @@ namespace Education.Domain.Entities
     /// </summary>
     public class Group : Entity<Guid>
     {
+        #region Свойства
         private readonly ICollection<Student> _students = new Collection<Student>();
 
         /// <summary>
@@ -22,7 +23,9 @@ namespace Education.Domain.Entities
         /// </summary>
         public GroupName Name { get; private set; }
 
-        #region Constructors
+        #endregion
+
+        #region Конструкторы
 
         /// <summary>
         /// Основной конструктор
@@ -44,6 +47,7 @@ namespace Education.Domain.Entities
 
         #endregion
 
+        #region Методы
         /// <summary>
         /// Добавить студента в группу
         /// </summary>
@@ -68,5 +72,6 @@ namespace Education.Domain.Entities
         {
             return _students.Remove(student);
         }
+        #endregion
     }
 }

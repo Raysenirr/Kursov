@@ -48,15 +48,6 @@ public class LessonConfiguration : IEntityTypeConfiguration<Lesson>
         builder.Metadata.FindNavigation("_grades")!.SetPropertyAccessMode(PropertyAccessMode.Field);
         builder.Metadata.FindNavigation("_homeworks")!.SetPropertyAccessMode(PropertyAccessMode.Field);
 
-        // УБРАТЬ:
-        // builder.Metadata.FindNavigation("_grades")!
-        //        .SetPropertyAccessMode(PropertyAccessMode.Field);
-
-
-        // 👇 это уже не нужно, если выше написано
-        // builder.Metadata.FindNavigation("_grades")?.SetPropertyAccessMode(PropertyAccessMode.Field);
-
-
         builder.Metadata.FindNavigation("_homeworks")!
                .SetPropertyAccessMode(PropertyAccessMode.Field);
 

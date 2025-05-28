@@ -21,19 +21,19 @@ public class GradeConfiguration : IEntityTypeConfiguration<Grade>
                );
 
         builder.HasOne(x => x.Student)
-               .WithMany("_grades") // к private _grades в Student
+               .WithMany("_grades") 
                .HasForeignKey(x => x.StudentId)
                .OnDelete(DeleteBehavior.Cascade)
                .IsRequired();
 
-        builder.HasOne<Lesson>() // 👈 без лямбды!
+        builder.HasOne<Lesson>()
        .WithMany("_grades")
        .HasForeignKey(x => x.LessonId)
        .OnDelete(DeleteBehavior.Cascade);
 
 
         builder.HasOne(x => x.Teacher)
-               .WithMany("_grades") // к private _grades в Teacher
+               .WithMany("_grades")
                .HasForeignKey(x => x.TeacherId)
                .OnDelete(DeleteBehavior.Restrict)
                .IsRequired();

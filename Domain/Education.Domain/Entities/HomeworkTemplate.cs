@@ -1,7 +1,5 @@
 ﻿using Education.Domain.Exceptions;
 using Education.Domain.ValueObjects;
-using System;
-
 
 namespace Education.Domain.Entities
 {
@@ -10,9 +8,12 @@ namespace Education.Domain.Entities
     /// </summary>
     public class HomeworkTemplate
     {
+        #region Свойства
         public LessonTopic Topic { get; private set; }
         public HomeworkTitle Title { get; private set; }
+        #endregion
 
+        #region Конструкторы
         /// <summary>
         /// Конструктор для доменной логики.
         /// </summary>
@@ -30,7 +31,9 @@ namespace Education.Domain.Entities
             Topic = null!;
             Title = null!;
         }
+        #endregion
 
+        #region Методы
         /// <summary>
         /// Обновление темы.
         /// </summary>
@@ -46,5 +49,6 @@ namespace Education.Domain.Entities
         {
             Title = newTitle ?? throw new HomeworkTitleIsNullsException();
         }
+        #endregion
     }
 }

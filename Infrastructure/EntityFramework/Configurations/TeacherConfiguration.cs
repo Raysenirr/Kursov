@@ -30,7 +30,6 @@ public class TeacherConfiguration : IEntityTypeConfiguration<Teacher>
         builder.Metadata.FindNavigation("_lessons")!.SetPropertyAccessMode(PropertyAccessMode.Field);
         builder.Metadata.FindNavigation("_grades")!.SetPropertyAccessMode(PropertyAccessMode.Field);
 
-        // Обязательно!
         builder.Ignore(t => t.TeachedLessons);
         builder.Ignore(t => t.ScheduledLessons);
         builder.Ignore(t => t.AssignedGrades);

@@ -8,7 +8,7 @@ public class HomeworkSubmissionConfiguration : IEntityTypeConfiguration<Homework
 {
     public void Configure(EntityTypeBuilder<HomeworkSubmission> builder)
     {
-        // Композитный ключ (StudentId + HomeworkId)
+        // Ключ (StudentId + HomeworkId)
         builder.HasKey(x => new { x.StudentId, x.HomeworkId });
 
         // Дата отправки
@@ -22,14 +22,14 @@ public class HomeworkSubmissionConfiguration : IEntityTypeConfiguration<Homework
                .OnDelete(DeleteBehavior.Cascade)
                .IsRequired();
 
-        // Навигация к Homework — ❗ БЕЗ указания Submissions, чтобы не конфликтовало с _submissions
+        // Навигация к Homework
         builder.HasOne(x => x.Homework)
-               .WithMany("_submissions") // 👈 важно: без .WithMany(h => h.Submissions)
+               .WithMany("_submissions")
                .HasForeignKey(x => x.HomeworkId)
                .OnDelete(DeleteBehavior.Cascade)
                .IsRequired();
 
-        // Автоподключение студента (если нужно)
+        // Автоподключение студента
         builder.Navigation(x => x.Student).AutoInclude();
     }
 }

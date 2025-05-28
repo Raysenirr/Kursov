@@ -4,6 +4,7 @@ namespace Education.Domain.Entities
 {
     public class HomeworkSubmission
     {
+        #region Свойства
         public Guid StudentId { get; private set; }
         public Student Student { get; private set; }
 
@@ -11,7 +12,9 @@ namespace Education.Domain.Entities
         public Homework Homework { get; private set; }
 
         public DateTime SubmissionDate { get; private set; }
+        #endregion
 
+        #region Конструкторы
         // Конструктор для EF  
         private HomeworkSubmission() { }
 
@@ -37,5 +40,6 @@ namespace Education.Domain.Entities
         protected HomeworkSubmission(Guid studentId, Guid homeworkId, DateTime submissionDate)
         {
         }
+        #endregion
     }
 }

@@ -22,14 +22,12 @@ public class HomeworkConfiguration : IEntityTypeConfiguration<Homework>
                 value => new HomeworkTitle(value)
             );
 
-        // ✅ Простая навигация к Lesson — без WithMany
         builder.HasOne(h => h.Lesson)
-               .WithMany() // ← просто оставляем пустым (основная связь настраивается в LessonConfiguration)
+               .WithMany() 
                .HasForeignKey(h => h.LessonId)
                .OnDelete(DeleteBehavior.Cascade)
                .IsRequired();
 
-        // ✅ Настройка навигации к сабмишенам
         builder.HasMany<HomeworkSubmission>("_submissions")
                .WithOne(s => s.Homework)
                .HasForeignKey("HomeworkId")

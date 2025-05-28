@@ -13,18 +13,12 @@ namespace Education.Domain.Entities
     /// </summary>
     public class Teacher : Person
     {
-
+        #region Свойства
         private readonly ICollection<Lesson> _lessons = new List<Lesson>();
         private readonly ICollection<Grade> _grades = new List<Grade>();
         private readonly HomeworkBank _homeworkBank;
 
         public HomeworkBank HomeworkBank => _homeworkBank;
-
-        ///<summary>Навигационное свойство для EF — доступ к урокам</summary>
-        //public ICollection<Lesson> Lessons => (ICollection<Lesson>)_lessons;
-
-        ///<summary>Навигационное свойство для EF — доступ к оценкам</summary>
-        //public ICollection<Grade> Grades => (ICollection<Grade>)_grades;
 
         ///<summary>Проведённые уроки</summary>
         public IReadOnlyCollection<Lesson> TeachedLessons =>
@@ -37,9 +31,9 @@ namespace Education.Domain.Entities
         ///<summary>Оценки, выставленные преподавателем</summary>
         public IReadOnlyCollection<Grade> AssignedGrades =>
             _grades.ToList().AsReadOnly();
+        #endregion
 
-
-        #region Constructors
+        #region Конструкторы
 
         /// <summary>
         /// Конструктор для восстановления из БД (Entity Framework).
@@ -77,7 +71,7 @@ namespace Education.Domain.Entities
 
         #endregion
 
-        #region Поведение
+        #region Методы
 
         public void TeachLesson(Lesson lesson)
         {

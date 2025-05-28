@@ -11,7 +11,7 @@ namespace Education.Domain.Entities
     /// </summary>
     public class Grade : Entity<Guid>
     {
-        #region Properties
+        #region Свойства
 
         /// <summary> Преподаватель, поставивший оценку </summary>
         public Teacher Teacher { get; private set; }
@@ -20,7 +20,6 @@ namespace Education.Domain.Entities
         public Student Student { get; private set; }
 
         /// <summary> Урок, за который поставлена оценка </summary>
-
 
         public Lesson Lesson { get; private set; }
 
@@ -40,7 +39,7 @@ namespace Education.Domain.Entities
 
         #endregion
 
-        #region Constructors
+        #region Конструкторы
 
         public Grade(Teacher teacher, Student student, Lesson lesson, DateTime gradeTime, Mark mark)
     : this(Guid.NewGuid(), teacher, student, lesson, gradeTime, mark)
@@ -56,12 +55,11 @@ namespace Education.Domain.Entities
             ValidateGrade(teacher, student, lesson, gradeTime, mark);
 
             Teacher = teacher;
-            TeacherId = teacher.Id; // добавлено
+            TeacherId = teacher.Id;
 
             Student = student;
             StudentId = student.Id;
 
-            //Lesson = lesson;
             LessonId = lesson.Id;
 
             GradedTime = gradeTime;
@@ -74,7 +72,7 @@ namespace Education.Domain.Entities
         protected Grade() : base(Guid.NewGuid()) { }
         #endregion
 
-        #region Validation
+        #region Валидация
 
         private static void ValidateGrade(Teacher teacher, Student student, Lesson lesson,
                                           DateTime gradeTime, Mark mark)

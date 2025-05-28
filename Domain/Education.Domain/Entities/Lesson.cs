@@ -9,6 +9,7 @@ namespace Education.Domain.Entities
 {
     public class Lesson : Entity<Guid>
     {
+        #region Свойства
         public Group Group { get; }
         public Teacher Teacher { get; }
         public DateTime ClassTime { get; private set; }
@@ -29,7 +30,9 @@ namespace Education.Domain.Entities
         public IReadOnlyCollection<Homework> AssignedHomeworks => _homeworks.ToList().AsReadOnly();
 
         public IReadOnlyCollection<Homework> Homeworks => _homeworks.ToList().AsReadOnly();
+        #endregion
 
+        #region Конструкторы
         protected Lesson(Guid id, Group group, Teacher teacher, LessonTopic topic,
                  DateTime classTime, LessonStatus status) : base(id)
         {
@@ -49,6 +52,9 @@ namespace Education.Domain.Entities
             : this(Guid.NewGuid(), group, teacher, topic, classTime, LessonStatus.New) { }
 
         protected Lesson() : base(Guid.NewGuid()) { }
+        #endregion
+
+        #region Методы
         public void Teach()
         {
             ValidateBeforeStateChange();
@@ -120,6 +126,7 @@ namespace Education.Domain.Entities
         }
         public IEnumerable<Homework> GetHomeworks() => _homeworks;
 
+        #endregion
     }
 }
 

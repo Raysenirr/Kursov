@@ -11,8 +11,17 @@ namespace Education.Domain.Entities;
 /// </summary>
 public class HomeworkBank
 {
+    #region Свойства
     private readonly ICollection<HomeworkTemplate> _templates = new List<HomeworkTemplate>();
 
+    /// <summary>
+    /// Получить все шаблоны в виде коллекции (не маппится EF)
+    /// </summary>
+    [NotMapped]
+    public IReadOnlyCollection<HomeworkTemplate> Templates => new ReadOnlyCollection<HomeworkTemplate>(_templates.ToList());
+    #endregion
+
+    #region Конструкторы
     /// <summary>
     /// Только для EF
     /// </summary>
@@ -30,13 +39,9 @@ public class HomeworkBank
         _templates = templates ?? throw new TemplatesIsNullException();
     }
 
-    /// <summary>
-    /// Получить все шаблоны в виде коллекции (не маппится EF)
-    /// </summary>
-    [NotMapped] // 🔥 ЭТО ГЛАВНОЕ, ЧТОБЫ НЕ БЫЛО ОШИБКИ
-    public IReadOnlyCollection<HomeworkTemplate> Templates =>
-        new ReadOnlyCollection<HomeworkTemplate>(_templates.ToList());
+    #endregion
 
+    #region Методы
     public void AddTemplate(LessonTopic topic, HomeworkTitle title)
     {
         if (title == null)
@@ -58,6 +63,7 @@ public class HomeworkBank
         var template = _templates.FirstOrDefault(t => t.Topic.Equals(topic));
         return template != null && _templates.Remove(template);
     }
+    #endregion
 }
 
 

@@ -9,6 +9,7 @@ namespace Education.Domain.Entities
 {
     public class Student : Person
     {
+        #region Свойства
         private readonly ICollection<Lesson> _lessons = [];
         private readonly ICollection<Grade> _grades = [];
 
@@ -16,8 +17,9 @@ namespace Education.Domain.Entities
         public IReadOnlyCollection<Grade> RecievedGrades => [.. _grades];
 
         public Group Group { get; protected set; }
+        #endregion
 
-        #region Construct
+        #region Конструкторы
 
         protected Student(Guid id, PersonName name, Group group) : base(id, name)
         {
@@ -34,7 +36,7 @@ namespace Education.Domain.Entities
 
         #endregion
 
-        #region Methods
+        #region Методы
 
         public void AttendLesson(Lesson lesson)
         {
@@ -61,7 +63,6 @@ namespace Education.Domain.Entities
             if (!_lessons.Contains(homework.Lesson))
                 throw new LessonNotVisitedException(homework.Lesson, this);
 
-            // Теперь проверяем по `Homework.Submissions`
             if (homework.Submissions.Any(s => s.StudentId == Id))
                 throw new HomeworkAlreadySubmittedException(homework);
 
@@ -105,6 +106,46 @@ namespace Education.Domain.Entities
             }
 
             return result.AsReadOnly();
+        }
+
+        ///<summary>Получить только те задания, которые были сданы студентом.</summary>
+        public IReadOnlyCollection<Homework> GetSubmittedHomeworks()
+        {
+            var result = new List<Homework>();
+
+            foreach (var lesson in _lessons)
+            {
+                foreach (var homework in lesson.Homeworks)
+                {
+                    if (homework.Submissions.Any(s => s.StudentId == Id))
+                        result.Add(homework);
+                }
+            }
+
+            return result.AsReadOnly();
+        }
+
+        ///<summary>Получить список всех заданий и их статуса: сдано или не сдано.</summary>
+        public IReadOnlyCollection<(Homework Homework, bool IsSubmitted)> GetHomeworksWithStatus()
+        {
+            var result = new List<(Homework, bool)>();
+
+            foreach (var lesson in _lessons)
+            {
+                foreach (var homework in lesson.Homeworks)
+                {
+                    bool isSubmitted = homework.Submissions.Any(s => s.StudentId == Id);
+                    result.Add((homework, isSubmitted));
+                }
+            }
+
+            return result.AsReadOnly();
+        }
+
+        ///<summary>Получить все оценки, полученные студентом.</summary>
+        public IReadOnlyCollection<Grade> GetAllGrades()
+        {
+            return RecievedGrades;
         }
 
 
