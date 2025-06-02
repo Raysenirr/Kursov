@@ -4,10 +4,12 @@
     "\\Domain",
     "\\Domain\\Education.Domain",
     "\\Domain\\Education.Domain.Repositories.Abstractions",
+    "\\Domain\\Education.Domain\\Entities",
     "\\Infrastructure",
     "\\Infrastructure\\EntityFramework",
     "\\Infrastructure\\EntityFramework\\Configurations",
     "\\Infrastructure\\Infrastructure"
   ],
+  "SelectedNode": "\\Infrastructure\\ApplicationDbContextFactory.cs",
   "PreviewInSolutionExplorer": false
 }

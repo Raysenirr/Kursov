@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Education.ValueObjects.Exceptions;
+﻿using Education.ValueObjects.Exceptions;
 
 namespace Education.Domain.ValueObjects.Base
 {

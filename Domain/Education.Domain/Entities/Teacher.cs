@@ -86,7 +86,7 @@ namespace Education.Domain.Entities
 
             lesson.Teach();
 
-            if (!_lessons.Contains(lesson))
+            if (!_lessons.Any(l => l != null && l.Id == lesson.Id))
                 _lessons.Add(lesson);
         }
         /// <summary> Добавляет запланированный урок в список преподавателя </summary>
@@ -95,7 +95,7 @@ namespace Education.Domain.Entities
             if (lesson.State != LessonStatus.Teached)
                 throw new LessonNotStartedException(lesson);
 
-            if (!_lessons.Contains(lesson))
+            if (!_lessons.Any(l => l != null && l.Id == lesson.Id))
                 throw new AnotherTeacherLessonGradedException(lesson, this);
 
             if (_grades.Any(g => g.Student == student && g.Lesson == lesson))
@@ -114,7 +114,7 @@ namespace Education.Domain.Entities
             if (lesson.State != LessonStatus.New)
                 throw new LessonAlreadyTeachedException(lesson);
 
-            if (!_lessons.Contains(lesson))
+            if (!_lessons.Any(l => l != null && l.Id == lesson.Id))
                 _lessons.Add(lesson);
         }
         /// <summary> Назначает домашнюю работу на урок из шаблона банка заданий по теме урока </summary>

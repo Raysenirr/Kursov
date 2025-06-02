@@ -15,12 +15,9 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
     public DbSet<Homework> Homeworks { get; set; }
     public DbSet<HomeworkSubmission> HomeworkSubmissions { get; set; }
 
-    // НЕ добавляй SubmittedHomeworkInfo — он не маппится на таблицу
-    // public DbSet<SubmittedHomeworkInfo> SubmittedHomeworkInfos { get; set; } // ❌
-
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.EnableSensitiveDataLogging(); // для отладки
+        optionsBuilder.EnableSensitiveDataLogging();
         base.OnConfiguring(optionsBuilder);
     }
 

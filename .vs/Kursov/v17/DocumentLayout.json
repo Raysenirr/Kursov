@@ -3,48 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\Kursov\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|c:\\users\\hp\\source\\repos\\kursov\\testsfordomain\\domainvalidationscenariostests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|solutionrelative:testsfordomain\\domainvalidationscenariostests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\submittedhomeworkinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\submittedhomeworkinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|c:\\users\\hp\\source\\repos\\kursov\\testsfordomain\\homeworktests_fixed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|solutionrelative:testsfordomain\\homeworktests_fixed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|c:\\users\\hp\\source\\repos\\kursov\\testsfordomain\\homeworktemplatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|solutionrelative:testsfordomain\\homeworktemplatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|c:\\users\\hp\\source\\repos\\kursov\\testsfordomain\\grouptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|solutionrelative:testsfordomain\\grouptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\homeworktemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\homeworktemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|c:\\users\\hp\\source\\repos\\kursov\\testsfordomain\\gradetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|solutionrelative:testsfordomain\\gradetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\homeworksubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\homeworksubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|c:\\users\\hp\\source\\repos\\kursov\\testsfordomain\\domainwrongteachergradingtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|solutionrelative:testsfordomain\\domainwrongteachergradingtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\homeworkbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\homeworkbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|c:\\users\\hp\\source\\repos\\kursov\\testsfordomain\\domainlatehomeworktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|solutionrelative:testsfordomain\\domainlatehomeworktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\homework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\homework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|c:\\users\\hp\\source\\repos\\kursov\\testsfordomain\\domainintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|solutionrelative:testsfordomain\\domainintegrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|c:\\users\\hp\\source\\repos\\kursov\\testsfordomain\\domainhomeworkgroupvalidationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|solutionrelative:testsfordomain\\domainhomeworkgroupvalidationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|c:\\users\\hp\\source\\repos\\kursov\\testsfordomain\\domaingradingwithouthomeworktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|solutionrelative:testsfordomain\\domaingradingwithouthomeworktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|c:\\users\\hp\\source\\repos\\kursov\\infrastructure\\entityframework\\configurations\\teacherconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|solutionrelative:infrastructure\\entityframework\\configurations\\teacherconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|c:\\users\\hp\\source\\repos\\kursov\\testsfordomain\\domaincrossgroupgradingtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|solutionrelative:testsfordomain\\domaincrossgroupgradingtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|c:\\users\\hp\\source\\repos\\kursov\\testsfordomain\\testsfordomain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|solutionrelative:testsfordomain\\testsfordomain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|c:\\users\\hp\\source\\repos\\kursov\\infrastructure\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|solutionrelative:infrastructure\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|c:\\users\\hp\\source\\repos\\kursov\\infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|solutionrelative:infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|c:\\users\\hp\\source\\repos\\kursov\\infrastructure\\entityframework\\configurations\\groupconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|solutionrelative:infrastructure\\entityframework\\configurations\\groupconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|c:\\users\\hp\\source\\repos\\kursov\\infrastructure\\entityframework\\configurations\\homeworkconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|solutionrelative:infrastructure\\entityframework\\configurations\\homeworkconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|c:\\users\\hp\\source\\repos\\kursov\\infrastructure\\entityframework\\configurations\\homeworksubmissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|solutionrelative:infrastructure\\entityframework\\configurations\\homeworksubmissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|c:\\users\\hp\\source\\repos\\kursov\\infrastructure\\entityframework\\configurations\\studentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,48 +79,168 @@
       "RelativeMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|solutionrelative:infrastructure\\entityframework\\configurations\\lessonconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|c:\\users\\hp\\source\\repos\\kursov\\infrastructure\\entityframework\\configurations\\homeworksubmissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|solutionrelative:infrastructure\\entityframework\\configurations\\homeworksubmissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|c:\\users\\hp\\source\\repos\\kursov\\infrastructure\\entityframework\\configurations\\teacherconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|solutionrelative:infrastructure\\entityframework\\configurations\\teacherconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|c:\\users\\hp\\source\\repos\\kursov\\infrastructure\\entityframework\\configurations\\homeworkconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|solutionrelative:infrastructure\\entityframework\\configurations\\homeworkconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|c:\\users\\hp\\source\\repos\\kursov\\infrastructure\\entityframework\\configurations\\groupconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|solutionrelative:infrastructure\\entityframework\\configurations\\groupconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\homeworkbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\homeworkbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\homeworktemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\homeworktemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\homeworksubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\homeworksubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\submittedhomeworkinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\submittedhomeworkinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\homework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\homework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|c:\\users\\hp\\source\\repos\\kursov\\infrastructure\\entityframework\\configurations\\gradeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|solutionrelative:infrastructure\\entityframework\\configurations\\gradeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|c:\\users\\hp\\source\\repos\\kursov\\infrastructure\\education.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{04148A98-B027-4B86-8DBD-78BDF84D8EB0}|Infrastructure\\Education.Infrastructure.csproj|solutionrelative:infrastructure\\education.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|c:\\users\\hp\\source\\repos\\kursov\\testsfordomain\\submittedhomeworkinfotests_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|solutionrelative:testsfordomain\\submittedhomeworkinfotests_2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|c:\\users\\hp\\source\\repos\\kursov\\testsfordomain\\teachertests_filled.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|solutionrelative:testsfordomain\\teachertests_filled.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|c:\\users\\hp\\source\\repos\\kursov\\testsfordomain\\studenttests (1).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|solutionrelative:testsfordomain\\studenttests (1).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|c:\\users\\hp\\source\\repos\\kursov\\testsfordomain\\lessontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|solutionrelative:testsfordomain\\lessontests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|c:\\users\\hp\\source\\repos\\kursov\\testsfordomain\\latesubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|solutionrelative:testsfordomain\\latesubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|c:\\users\\hp\\source\\repos\\kursov\\testsfordomain\\homeworkbanktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003C499F-C027-4830-91ED-E8E5F2619C0D}|TestsForDomain\\TestsForDomain.csproj|solutionrelative:testsfordomain\\homeworkbanktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\abstractions\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\abstractions\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1654D4A-105F-49BC-8EC4-FC8F77CA80DD}|Domain\\Education.Domain.Services\\Education.Domain.Services.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain.services\\education.domain.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C1654D4A-105F-49BC-8EC4-FC8F77CA80DD}|Domain\\Education.Domain.Services\\Education.Domain.Services.csproj|solutionrelative:domain\\education.domain.services\\education.domain.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\enums\\lessonstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\enums\\lessonstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\enums\\mark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\enums\\mark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\base\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\base\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\base\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\base\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\exceptions\\lessontopictoomanywhitespacesexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\exceptions\\lessontopictoomanywhitespacesexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\exceptions\\personnameinvalidcharactersexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\exceptions\\personnameinvalidcharactersexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\exceptions\\personnametoolongexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\exceptions\\personnametoolongexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\exceptions\\personnametooshortexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\exceptions\\personnametooshortexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\exceptions\\lessontopicisnullexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\exceptions\\lessontopicisnullexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\exceptions\\lessontopicdoublewhitespaceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\exceptions\\lessontopicdoublewhitespaceexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\exceptions\\homeworktitletoolongexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\exceptions\\homeworktitletoolongexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\exceptions\\groupnametooshortexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\exceptions\\groupnametooshortexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\exceptions\\groupnameminuscountexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\exceptions\\groupnameminuscountexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\exceptions\\groupnamenullexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\exceptions\\groupnamenullexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\exceptions\\groupnameinvalidcharactersexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\exceptions\\groupnameinvalidcharactersexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\exceptions\\groupnamedoubleminusexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\exceptions\\groupnamedoubleminusexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\exceptions\\homeworktitleisnullexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\exceptions\\homeworktitleisnullexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\exceptions\\homeworktitlenullexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\exceptions\\homeworktitlenullexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\exceptions\\lessontopicnullexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\exceptions\\lessontopicnullexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\exceptions\\nullexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\exceptions\\nullexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\validators\\personnamevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\validators\\personnamevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\personname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\personname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\homeworktitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\homeworktitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\lessontopic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\lessontopic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\validators\\lessontopicvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\validators\\lessontopicvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\validators\\homeworktitlevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\validators\\homeworktitlevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\validators\\groupnamevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\validators\\groupnamevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\base\\valueobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,12 +251,52 @@
       "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\base\\ivalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\enums\\mark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\enums\\mark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\validators\\groupnamevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\validators\\groupnamevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\enums\\lessonstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\enums\\lessonstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\homeworktitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\homeworktitle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\validators\\lessontopicvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\validators\\lessontopicvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\validators\\homeworktitlevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\validators\\homeworktitlevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\groupname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\groupname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\lessontopic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\lessontopic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\personname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\personname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.valueobjects\\education.valueobjects.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A482B5D4-34AA-4528-81AF-614A4B2FC1AA}|Domain\\Education.ValueObjects\\Education.ValueObjects.csproj|solutionrelative:domain\\education.valueobjects\\education.valueobjects.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\education.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\education.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\exceptions\\lessonnotvisitedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\exceptions\\lessonnotvisitedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\exceptions\\doubleenrollmentexception1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\exceptions\\doubleenrollmentexception1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\exceptions\\doublegradestudentlesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -127,20 +311,8 @@
       "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\exceptions\\homeworkalreadysubmittedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\base\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\base\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\entities\\base\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\entities\\base\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\abstractions\\ihomeworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\abstractions\\ihomeworkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\abstractions\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|solutionrelative:domain\\education.domain\\abstractions\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03D62D92-D2BC-4CA2-890F-FCF64C68C682}|Domain\\Education.Domain\\Education.Domain.csproj|c:\\users\\hp\\source\\repos\\kursov\\domain\\education.domain\\abstractions\\ihomeworktemplaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -158,7 +330,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -166,150 +338,187 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Lesson.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Lesson.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\Lesson.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Lesson.cs",
-              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\Lesson.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:03:06.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Student.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\Student.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Student.cs",
-              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\Student.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAA+AAAA",
+              "Title": "HomeworkTemplateTests.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\HomeworkTemplateTests.cs",
+              "RelativeDocumentMoniker": "TestsForDomain\\HomeworkTemplateTests.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\HomeworkTemplateTests.cs",
+              "RelativeToolTip": "TestsForDomain\\HomeworkTemplateTests.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T12:05:40.075Z",
+              "WhenOpened": "2025-05-28T17:23:58.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SubmittedHomeworkInfo.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\SubmittedHomeworkInfo.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\SubmittedHomeworkInfo.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\SubmittedHomeworkInfo.cs",
-              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\SubmittedHomeworkInfo.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Title": "HomeworkTests_Fixed.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\HomeworkTests_Fixed.cs",
+              "RelativeDocumentMoniker": "TestsForDomain\\HomeworkTests_Fixed.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\HomeworkTests_Fixed.cs",
+              "RelativeToolTip": "TestsForDomain\\HomeworkTests_Fixed.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAHQAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:20:20.368Z",
+              "WhenOpened": "2025-05-28T17:24:01.926Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Teacher.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Teacher.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\Teacher.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Teacher.cs",
-              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\Teacher.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Title": "DomainValidationScenariosTests.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\DomainValidationScenariosTests.cs",
+              "RelativeDocumentMoniker": "TestsForDomain\\DomainValidationScenariosTests.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\DomainValidationScenariosTests.cs",
+              "RelativeToolTip": "TestsForDomain\\DomainValidationScenariosTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T11:49:37.966Z",
+              "WhenOpened": "2025-05-28T17:23:22.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GroupTests.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\GroupTests.cs",
+              "RelativeDocumentMoniker": "TestsForDomain\\GroupTests.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\GroupTests.cs",
+              "RelativeToolTip": "TestsForDomain\\GroupTests.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T17:23:50.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "HomeworkTemplate.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\HomeworkTemplate.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\HomeworkTemplate.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\HomeworkTemplate.cs",
-              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\HomeworkTemplate.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAABIAAAAIAAAA",
+              "Title": "GradeTests.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\GradeTests.cs",
+              "RelativeDocumentMoniker": "TestsForDomain\\GradeTests.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\GradeTests.cs",
+              "RelativeToolTip": "TestsForDomain\\GradeTests.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAG4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:40:29.302Z",
+              "WhenOpened": "2025-05-28T17:23:45.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "HomeworkSubmission.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\HomeworkSubmission.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\HomeworkSubmission.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\HomeworkSubmission.cs",
-              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\HomeworkSubmission.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Title": "DomainWrongTeacherGradingTests.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\DomainWrongTeacherGradingTests.cs",
+              "RelativeDocumentMoniker": "TestsForDomain\\DomainWrongTeacherGradingTests.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\DomainWrongTeacherGradingTests.cs",
+              "RelativeToolTip": "TestsForDomain\\DomainWrongTeacherGradingTests.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAIAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:28:34.974Z",
+              "WhenOpened": "2025-05-28T17:23:27.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "HomeworkBank.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\HomeworkBank.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\HomeworkBank.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\HomeworkBank.cs",
-              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\HomeworkBank.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAABMAAABNAAAA",
+              "Title": "DomainLateHomeworkTests.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\DomainLateHomeworkTests.cs",
+              "RelativeDocumentMoniker": "TestsForDomain\\DomainLateHomeworkTests.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\DomainLateHomeworkTests.cs",
+              "RelativeToolTip": "TestsForDomain\\DomainLateHomeworkTests.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwBQAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:28:20.085Z",
+              "WhenOpened": "2025-05-28T17:23:16.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Homework.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Homework.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\Homework.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Homework.cs",
-              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\Homework.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Title": "DomainIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\DomainIntegrationTests.cs",
+              "RelativeDocumentMoniker": "TestsForDomain\\DomainIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\DomainIntegrationTests.cs",
+              "RelativeToolTip": "TestsForDomain\\DomainIntegrationTests.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAD8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:20:08.849Z",
+              "WhenOpened": "2025-05-28T17:22:49.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Group.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Group.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\Group.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Group.cs",
-              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\Group.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAABGAAAA",
+              "Title": "DomainHomeworkGroupValidationTests.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\DomainHomeworkGroupValidationTests.cs",
+              "RelativeDocumentMoniker": "TestsForDomain\\DomainHomeworkGroupValidationTests.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\DomainHomeworkGroupValidationTests.cs",
+              "RelativeToolTip": "TestsForDomain\\DomainHomeworkGroupValidationTests.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABIAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:18:38.537Z",
+              "WhenOpened": "2025-05-28T17:16:54.431Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Grade.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Grade.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\Grade.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Grade.cs",
-              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\Grade.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Title": "DomainGradingWithoutHomeworkTests.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\DomainGradingWithoutHomeworkTests.cs",
+              "RelativeDocumentMoniker": "TestsForDomain\\DomainGradingWithoutHomeworkTests.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\DomainGradingWithoutHomeworkTests.cs",
+              "RelativeToolTip": "TestsForDomain\\DomainGradingWithoutHomeworkTests.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA5wDMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:15:42.444Z",
+              "WhenOpened": "2025-05-28T17:09:23.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "TeacherConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\EntityFramework\\Configurations\\TeacherConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\EntityFramework\\Configurations\\TeacherConfiguration.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\EntityFramework\\Configurations\\TeacherConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\EntityFramework\\Configurations\\TeacherConfiguration.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAAAD4AAAABAAAA",
+              "Title": "DomainCrossGroupGradingTests.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\DomainCrossGroupGradingTests.cs",
+              "RelativeDocumentMoniker": "TestsForDomain\\DomainCrossGroupGradingTests.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\DomainCrossGroupGradingTests.cs",
+              "RelativeToolTip": "TestsForDomain\\DomainCrossGroupGradingTests.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAgwC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:27:59.827Z",
+              "WhenOpened": "2025-05-28T17:08:49.328Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
+              "Title": "ApplicationDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\ApplicationDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ApplicationDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\ApplicationDbContextFactory.cs",
+              "RelativeToolTip": "Infrastructure\\ApplicationDbContextFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T14:34:09.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GroupConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\EntityFramework\\Configurations\\GroupConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EntityFramework\\Configurations\\GroupConfiguration.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\EntityFramework\\Configurations\\GroupConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\EntityFramework\\Configurations\\GroupConfiguration.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAB8AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:26:57.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeworkConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\EntityFramework\\Configurations\\HomeworkConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EntityFramework\\Configurations\\HomeworkConfiguration.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\EntityFramework\\Configurations\\HomeworkConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\EntityFramework\\Configurations\\HomeworkConfiguration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:26:59.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "StudentConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\EntityFramework\\Configurations\\StudentConfiguration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\EntityFramework\\Configurations\\StudentConfiguration.cs",
@@ -317,25 +526,60 @@
               "RelativeToolTip": "Infrastructure\\EntityFramework\\Configurations\\StudentConfiguration.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAAADEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:27:55.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T13:27:55.562Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "LessonConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\EntityFramework\\Configurations\\LessonConfiguration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\EntityFramework\\Configurations\\LessonConfiguration.cs",
               "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\EntityFramework\\Configurations\\LessonConfiguration.cs",
               "RelativeToolTip": "Infrastructure\\EntityFramework\\Configurations\\LessonConfiguration.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAADIAAAAQAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwDIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:27:43.176Z",
+              "WhenOpened": "2025-05-28T13:27:43.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TeacherConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\EntityFramework\\Configurations\\TeacherConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\EntityFramework\\Configurations\\TeacherConfiguration.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\EntityFramework\\Configurations\\TeacherConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\EntityFramework\\Configurations\\TeacherConfiguration.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAADwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:27:59.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Lesson.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Lesson.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\Lesson.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Lesson.cs",
+              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\Lesson.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAwwGkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:03:06.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TestsForDomain.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\TestsForDomain.csproj",
+              "RelativeDocumentMoniker": "TestsForDomain\\TestsForDomain.csproj",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\TestsForDomain.csproj",
+              "RelativeToolTip": "TestsForDomain\\TestsForDomain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-28T17:10:33.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "HomeworkSubmissionConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\EntityFramework\\Configurations\\HomeworkSubmissionConfiguration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\EntityFramework\\Configurations\\HomeworkSubmissionConfiguration.cs",
@@ -343,272 +587,216 @@
               "RelativeToolTip": "Infrastructure\\EntityFramework\\Configurations\\HomeworkSubmissionConfiguration.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAAAoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:27:16.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T13:27:16.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "HomeworkConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\EntityFramework\\Configurations\\HomeworkConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\EntityFramework\\Configurations\\HomeworkConfiguration.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\EntityFramework\\Configurations\\HomeworkConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\EntityFramework\\Configurations\\HomeworkConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAABAAAA",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAqwBoAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:26:59.405Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-31T14:33:27.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GroupConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\EntityFramework\\Configurations\\GroupConfiguration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\EntityFramework\\Configurations\\GroupConfiguration.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\EntityFramework\\Configurations\\GroupConfiguration.cs",
-              "RelativeToolTip": "Infrastructure\\EntityFramework\\Configurations\\GroupConfiguration.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAAB8AAAAwAAAA",
+              "DocumentIndex": 21,
+              "Title": "HomeworkBank.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\HomeworkBank.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\HomeworkBank.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\HomeworkBank.cs",
+              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\HomeworkBank.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:26:57.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T13:28:20.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
+              "Title": "HomeworkTemplate.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\HomeworkTemplate.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\HomeworkTemplate.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\HomeworkTemplate.cs",
+              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\HomeworkTemplate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:40:29.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HomeworkSubmission.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\HomeworkSubmission.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\HomeworkSubmission.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\HomeworkSubmission.cs",
+              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\HomeworkSubmission.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:28:34.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SubmittedHomeworkInfo.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\SubmittedHomeworkInfo.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\SubmittedHomeworkInfo.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\SubmittedHomeworkInfo.cs",
+              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\SubmittedHomeworkInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:20:20.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Homework.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Homework.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\Homework.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Homework.cs",
+              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\Homework.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:20:08.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Group.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\Group.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Group.cs",
+              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\Group.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwBgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:18:38.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "GradeConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\EntityFramework\\Configurations\\GradeConfiguration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\EntityFramework\\Configurations\\GradeConfiguration.cs",
               "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\EntityFramework\\Configurations\\GradeConfiguration.cs",
               "RelativeToolTip": "Infrastructure\\EntityFramework\\Configurations\\GradeConfiguration.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAAADsAAAAFAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABkAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T13:26:41.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "PersonNameValidator.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Validators\\PersonNameValidator.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Validators\\PersonNameValidator.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Validators\\PersonNameValidator.cs",
-              "RelativeToolTip": "Domain\\Education.ValueObjects\\Validators\\PersonNameValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T16:44:12.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PersonName.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\PersonName.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\PersonName.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\PersonName.cs",
-              "RelativeToolTip": "Domain\\Education.ValueObjects\\PersonName.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T16:44:11.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "HomeworkTitle.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\HomeworkTitle.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\HomeworkTitle.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\HomeworkTitle.cs",
-              "RelativeToolTip": "Domain\\Education.ValueObjects\\HomeworkTitle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T16:44:10.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "LessonTopic.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\LessonTopic.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\LessonTopic.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\LessonTopic.cs",
-              "RelativeToolTip": "Domain\\Education.ValueObjects\\LessonTopic.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T16:44:09.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "LessonTopicValidator.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Validators\\LessonTopicValidator.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Validators\\LessonTopicValidator.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Validators\\LessonTopicValidator.cs",
-              "RelativeToolTip": "Domain\\Education.ValueObjects\\Validators\\LessonTopicValidator.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAACAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T16:43:46.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "HomeworkTitleValidator.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Validators\\HomeworkTitleValidator.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Validators\\HomeworkTitleValidator.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Validators\\HomeworkTitleValidator.cs",
-              "RelativeToolTip": "Domain\\Education.ValueObjects\\Validators\\HomeworkTitleValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T16:43:40.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "GroupNameValidator.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Validators\\GroupNameValidator.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Validators\\GroupNameValidator.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Validators\\GroupNameValidator.cs",
-              "RelativeToolTip": "Domain\\Education.ValueObjects\\Validators\\GroupNameValidator.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T16:43:24.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ValueObjects.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Base\\ValueObjects.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Base\\ValueObjects.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Base\\ValueObjects.cs",
-              "RelativeToolTip": "Domain\\Education.ValueObjects\\Base\\ValueObjects.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAC0AAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T16:40:39.047Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IValidator.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Base\\IValidator.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Base\\IValidator.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Base\\IValidator.cs",
-              "RelativeToolTip": "Domain\\Education.ValueObjects\\Base\\IValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T16:40:36.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Mark.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Enums\\Mark.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Enums\\Mark.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Enums\\Mark.cs",
-              "RelativeToolTip": "Domain\\Education.Domain\\Enums\\Mark.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T16:40:19.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "LessonStatus.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Enums\\LessonStatus.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Enums\\LessonStatus.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Enums\\LessonStatus.cs",
-              "RelativeToolTip": "Domain\\Education.Domain\\Enums\\LessonStatus.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T16:40:17.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T13:26:41.93Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "DoubleGradeStudentLesson.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Exceptions\\DoubleGradeStudentLesson.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Exceptions\\DoubleGradeStudentLesson.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Exceptions\\DoubleGradeStudentLesson.cs",
-              "RelativeToolTip": "Domain\\Education.Domain\\Exceptions\\DoubleGradeStudentLesson.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T16:19:10.336Z",
+              "Title": "Education.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\Education.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Education.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Infrastructure\\Education.Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Education.Infrastructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-28T17:17:22.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "GroupIsNullException.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Exceptions\\GroupIsNullException.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Exceptions\\GroupIsNullException.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Exceptions\\GroupIsNullException.cs",
-              "RelativeToolTip": "Domain\\Education.Domain\\Exceptions\\GroupIsNullException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Student.cs",
+              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T16:19:09.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T12:05:40.075Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "HomeworkAlreadySubmittedException.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Exceptions\\HomeworkAlreadySubmittedException.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Exceptions\\HomeworkAlreadySubmittedException.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Exceptions\\HomeworkAlreadySubmittedException.cs",
-              "RelativeToolTip": "Domain\\Education.Domain\\Exceptions\\HomeworkAlreadySubmittedException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "SubmittedHomeworkInfoTests_2.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\SubmittedHomeworkInfoTests_2.cs",
+              "RelativeDocumentMoniker": "TestsForDomain\\SubmittedHomeworkInfoTests_2.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\SubmittedHomeworkInfoTests_2.cs",
+              "RelativeToolTip": "TestsForDomain\\SubmittedHomeworkInfoTests_2.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEMAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T16:19:08.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T17:24:33.417Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Base\\Person.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\Base\\Person.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Base\\Person.cs",
-              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\Base\\Person.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAABcAAAA0AAAA",
+              "Title": "TeacherTests_Filled.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\TeacherTests_Filled.cs",
+              "RelativeDocumentMoniker": "TestsForDomain\\TeacherTests_Filled.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\TeacherTests_Filled.cs",
+              "RelativeToolTip": "TestsForDomain\\TeacherTests_Filled.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T12:59:08.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T17:12:54.836Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "Entity.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Base\\Entity.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\Base\\Entity.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Base\\Entity.cs",
-              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\Base\\Entity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
+              "Title": "StudentTests (1).cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\StudentTests (1).cs",
+              "RelativeDocumentMoniker": "TestsForDomain\\StudentTests (1).cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\StudentTests (1).cs",
+              "RelativeToolTip": "TestsForDomain\\StudentTests (1).cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAADMAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T12:59:05.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T17:24:28.914Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
-              "Title": "IHomeworkRepository.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Abstractions\\IHomeworkRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Abstractions\\IHomeworkRepository.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Abstractions\\IHomeworkRepository.cs",
-              "RelativeToolTip": "Domain\\Education.Domain\\Abstractions\\IHomeworkRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "LessonTests.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\LessonTests.cs",
+              "RelativeDocumentMoniker": "TestsForDomain\\LessonTests.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\LessonTests.cs",
+              "RelativeToolTip": "TestsForDomain\\LessonTests.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAAAGsAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T12:53:16.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T17:24:22.68Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 34,
+              "Title": "LateSubmission.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\LateSubmission.cs",
+              "RelativeDocumentMoniker": "TestsForDomain\\LateSubmission.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\LateSubmission.cs",
+              "RelativeToolTip": "TestsForDomain\\LateSubmission.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T17:24:14.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HomeworkBankTests.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\HomeworkBankTests.cs",
+              "RelativeDocumentMoniker": "TestsForDomain\\HomeworkBankTests.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\TestsForDomain\\HomeworkBankTests.cs",
+              "RelativeToolTip": "TestsForDomain\\HomeworkBankTests.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T17:23:52.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Grade.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Grade.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\Grade.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Grade.cs",
+              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\Grade.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAgwDsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:15:42.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Abstractions\\IRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Education.Domain\\Abstractions\\IRepository.cs",
@@ -616,12 +804,494 @@
               "RelativeToolTip": "Domain\\Education.Domain\\Abstractions\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T16:09:57.141Z",
+              "WhenOpened": "2025-05-28T16:09:57.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Education.Domain.Services.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain.Services\\Education.Domain.Services.csproj",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain.Services\\Education.Domain.Services.csproj",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain.Services\\Education.Domain.Services.csproj",
+              "RelativeToolTip": "Domain\\Education.Domain.Services\\Education.Domain.Services.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-28T17:19:17.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
+              "Title": "LessonStatus.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Enums\\LessonStatus.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Enums\\LessonStatus.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Enums\\LessonStatus.cs",
+              "RelativeToolTip": "Domain\\Education.Domain\\Enums\\LessonStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:40:17.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Mark.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Enums\\Mark.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Enums\\Mark.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Enums\\Mark.cs",
+              "RelativeToolTip": "Domain\\Education.Domain\\Enums\\Mark.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:40:19.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Base\\Person.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\Base\\Person.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Base\\Person.cs",
+              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\Base\\Person.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T12:59:08.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Base\\Entity.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\Base\\Entity.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Base\\Entity.cs",
+              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\Base\\Entity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T12:59:05.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "LessonTopicTooManyWhitespacesException.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\LessonTopicTooManyWhitespacesException.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Exceptions\\LessonTopicTooManyWhitespacesException.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\LessonTopicTooManyWhitespacesException.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Exceptions\\LessonTopicTooManyWhitespacesException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T10:49:49.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "PersonNameInvalidCharactersException.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\PersonNameInvalidCharactersException.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Exceptions\\PersonNameInvalidCharactersException.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\PersonNameInvalidCharactersException.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Exceptions\\PersonNameInvalidCharactersException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T10:51:16.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PersonNameTooLongException.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\PersonNameTooLongException.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Exceptions\\PersonNameTooLongException.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\PersonNameTooLongException.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Exceptions\\PersonNameTooLongException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T10:51:19.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "PersonNameTooShortException.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\PersonNameTooShortException.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Exceptions\\PersonNameTooShortException.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\PersonNameTooShortException.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Exceptions\\PersonNameTooShortException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T10:51:18.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "LessonTopicIsNullException.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\LessonTopicIsNullException.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Exceptions\\LessonTopicIsNullException.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\LessonTopicIsNullException.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Exceptions\\LessonTopicIsNullException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T10:51:15.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "HomeworkTitleTooLongException.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\HomeworkTitleTooLongException.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Exceptions\\HomeworkTitleTooLongException.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\HomeworkTitleTooLongException.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Exceptions\\HomeworkTitleTooLongException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T10:49:53.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "LessonTopicDoubleWhitespaceException.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\LessonTopicDoubleWhitespaceException.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Exceptions\\LessonTopicDoubleWhitespaceException.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\LessonTopicDoubleWhitespaceException.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Exceptions\\LessonTopicDoubleWhitespaceException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T10:49:52.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "GroupNameTooShortException.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\GroupNameTooShortException.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Exceptions\\GroupNameTooShortException.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\GroupNameTooShortException.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Exceptions\\GroupNameTooShortException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T10:51:12.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "GroupNameMinusCountException.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\GroupNameMinusCountException.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Exceptions\\GroupNameMinusCountException.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\GroupNameMinusCountException.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Exceptions\\GroupNameMinusCountException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T10:51:11.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "GroupNameNullException.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\GroupNameNullException.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Exceptions\\GroupNameNullException.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\GroupNameNullException.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Exceptions\\GroupNameNullException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T10:51:11.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "GroupNameInvalidCharactersException.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\GroupNameInvalidCharactersException.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Exceptions\\GroupNameInvalidCharactersException.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\GroupNameInvalidCharactersException.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Exceptions\\GroupNameInvalidCharactersException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T10:51:09.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "GroupNameDoubleMinusException.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\GroupNameDoubleMinusException.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Exceptions\\GroupNameDoubleMinusException.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\GroupNameDoubleMinusException.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Exceptions\\GroupNameDoubleMinusException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T10:51:07.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "HomeworkTitleIsNullException.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\HomeworkTitleIsNullException.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Exceptions\\HomeworkTitleIsNullException.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\HomeworkTitleIsNullException.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Exceptions\\HomeworkTitleIsNullException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T10:51:03.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "HomeworkTitleNullException.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\HomeworkTitleNullException.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Exceptions\\HomeworkTitleNullException.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\HomeworkTitleNullException.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Exceptions\\HomeworkTitleNullException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T17:28:09.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "LessonTopicNullException.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\LessonTopicNullException.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Exceptions\\LessonTopicNullException.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\LessonTopicNullException.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Exceptions\\LessonTopicNullException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T10:49:50.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "NullException.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\NullException.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Exceptions\\NullException.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Exceptions\\NullException.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Exceptions\\NullException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T10:48:54.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ValueObjects.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Base\\ValueObjects.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Base\\ValueObjects.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Base\\ValueObjects.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Base\\ValueObjects.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:40:39.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "IValidator.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Base\\IValidator.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Base\\IValidator.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Base\\IValidator.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Base\\IValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:40:36.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "PersonNameValidator.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Validators\\PersonNameValidator.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Validators\\PersonNameValidator.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Validators\\PersonNameValidator.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Validators\\PersonNameValidator.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:44:12.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "GroupNameValidator.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Validators\\GroupNameValidator.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Validators\\GroupNameValidator.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Validators\\GroupNameValidator.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Validators\\GroupNameValidator.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:43:24.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "HomeworkTitle.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\HomeworkTitle.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\HomeworkTitle.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\HomeworkTitle.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\HomeworkTitle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:44:10.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "LessonTopicValidator.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Validators\\LessonTopicValidator.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Validators\\LessonTopicValidator.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Validators\\LessonTopicValidator.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Validators\\LessonTopicValidator.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:43:46.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "HomeworkTitleValidator.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Validators\\HomeworkTitleValidator.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Validators\\HomeworkTitleValidator.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Validators\\HomeworkTitleValidator.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Validators\\HomeworkTitleValidator.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:43:40.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "GroupName.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\GroupName.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\GroupName.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\GroupName.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\GroupName.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T08:50:20.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Education.ValueObjects.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Education.ValueObjects.csproj",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\Education.ValueObjects.csproj",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\Education.ValueObjects.csproj",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\Education.ValueObjects.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-28T17:19:09.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "LessonTopic.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\LessonTopic.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\LessonTopic.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\LessonTopic.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\LessonTopic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:44:09.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "PersonName.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\PersonName.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.ValueObjects\\PersonName.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.ValueObjects\\PersonName.cs",
+              "RelativeToolTip": "Domain\\Education.ValueObjects\\PersonName.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:44:11.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Education.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Education.Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Education.Domain.csproj",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Education.Domain.csproj",
+              "RelativeToolTip": "Domain\\Education.Domain\\Education.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-28T17:29:04.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "LessonNotVisitedException.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Exceptions\\LessonNotVisitedException.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Exceptions\\LessonNotVisitedException.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Exceptions\\LessonNotVisitedException.cs",
+              "RelativeToolTip": "Domain\\Education.Domain\\Exceptions\\LessonNotVisitedException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T13:29:27.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Teacher.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Entities\\Teacher.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Entities\\Teacher.cs",
+              "RelativeToolTip": "Domain\\Education.Domain\\Entities\\Teacher.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAwwHQAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T11:49:37.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "DoubleEnrollmentException1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Exceptions\\DoubleEnrollmentException1.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Exceptions\\DoubleEnrollmentException1.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Exceptions\\DoubleEnrollmentException1.cs",
+              "RelativeToolTip": "Domain\\Education.Domain\\Exceptions\\DoubleEnrollmentException1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T17:40:41.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "DoubleGradeStudentLesson.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Exceptions\\DoubleGradeStudentLesson.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Exceptions\\DoubleGradeStudentLesson.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Exceptions\\DoubleGradeStudentLesson.cs",
+              "RelativeToolTip": "Domain\\Education.Domain\\Exceptions\\DoubleGradeStudentLesson.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:19:10.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "GroupIsNullException.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Exceptions\\GroupIsNullException.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Exceptions\\GroupIsNullException.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Exceptions\\GroupIsNullException.cs",
+              "RelativeToolTip": "Domain\\Education.Domain\\Exceptions\\GroupIsNullException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:19:09.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "HomeworkAlreadySubmittedException.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Exceptions\\HomeworkAlreadySubmittedException.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Exceptions\\HomeworkAlreadySubmittedException.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Exceptions\\HomeworkAlreadySubmittedException.cs",
+              "RelativeToolTip": "Domain\\Education.Domain\\Exceptions\\HomeworkAlreadySubmittedException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:19:08.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "IHomeworkRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Abstractions\\IHomeworkRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Education.Domain\\Abstractions\\IHomeworkRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Abstractions\\IHomeworkRepository.cs",
+              "RelativeToolTip": "Domain\\Education.Domain\\Abstractions\\IHomeworkRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T12:53:16.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
               "Title": "IHomeworkTemplateRepository.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Abstractions\\IHomeworkTemplateRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Education.Domain\\Abstractions\\IHomeworkTemplateRepository.cs",
@@ -629,12 +1299,11 @@
               "RelativeToolTip": "Domain\\Education.Domain\\Abstractions\\IHomeworkTemplateRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T12:53:17.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T12:53:17.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 79,
               "Title": "IGroupsRepository.cs",
               "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Kursov\\Domain\\Education.Domain\\Abstractions\\IGroupsRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Education.Domain\\Abstractions\\IGroupsRepository.cs",
@@ -642,8 +1311,7 @@
               "RelativeToolTip": "Domain\\Education.Domain\\Abstractions\\IGroupsRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T12:53:16.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T12:53:16.049Z"
             },
             {
               "$type": "Bookmark",

@@ -26,10 +26,10 @@ public class GroupConfiguration : IEntityTypeConfiguration<Group>
         // Настраиваем маппинг значения GroupName через ValueObject
         builder.Property(x => x.Name)
 .HasConversion(                       // преобразование значения при сохранении/чтении
-                name => name.Value,              // из GroupName в string (для БД)
-                name => new GroupName(name))     // из string обратно в GroupName (для модели)
+                name => name.Value,              // из GroupName в string
+                name => new GroupName(name))     // из string обратно в GroupName
             .IsRequired()                        // значение обязательно
-            .HasMaxLength(10);                   // ограничение длины строки (на уровне БД)
+            .HasMaxLength(10);                   // ограничение длины строки
 
         // Создаём уникальный индекс по имени группы
         builder.HasIndex(x => x.Name).IsUnique();

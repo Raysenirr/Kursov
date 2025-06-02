@@ -4,7 +4,7 @@ using Education.Domain.ValueObjects;
 namespace Education.Domain.Entities
 {
     /// <summary>
-    /// Шаблон домашнего задания (Owned by HomeworkBank)
+    /// Шаблон домашнего задания
     /// </summary>
     public class HomeworkTemplate
     {

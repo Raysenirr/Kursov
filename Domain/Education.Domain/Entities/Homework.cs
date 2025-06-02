@@ -71,7 +71,7 @@ namespace Education.Domain.Entities
         /// <summary> Выполняет проверку перед приёмом домашнего задания </summary>
         private void ValidateSubmission(Student student, DateTime submissionDate)
         {
-            if (!student.AttendedLessons.Contains(Lesson))
+            if (!student.AttendedLessons.Any(l => l != null && l.Id == Lesson.Id))
                 throw new LessonNotVisitedException(Lesson, student);
 
             if (_submissions.Any(s => s.StudentId == student.Id))

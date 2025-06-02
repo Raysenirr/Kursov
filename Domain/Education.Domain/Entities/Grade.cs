@@ -57,6 +57,7 @@ namespace Education.Domain.Entities
             Student = student;
             StudentId = student.Id;
 
+            Lesson = lesson;
             LessonId = lesson.Id;
 
             GradedTime = gradeTime;
@@ -89,8 +90,9 @@ namespace Education.Domain.Entities
             if (gradeTime.ToUniversalTime() < lesson.ClassTime.ToUniversalTime())
                 throw new LessonNotStartedException(lesson);
 
-            if (!student.AttendedLessons.Contains(lesson))
+            if (!student.AttendedLessons.Any(l => l != null && l.Id == lesson.Id))
                 throw new LessonNotVisitedException(lesson, student);
+
         }
 
         #endregion

@@ -53,7 +53,7 @@ namespace Education.Domain.Entities
             if (lesson.Group != Group)
                 throw new AnotherGroupLessonException(this, lesson.Group);
 
-            if (_lessons.Contains(lesson))
+            if (_lessons.Any(l => l != null && l.Id == lesson.Id))
                 throw new DoubleVisitedLessonException(lesson, this);
 
             _lessons.Add(lesson);
@@ -92,10 +92,16 @@ namespace Education.Domain.Entities
         /// <summary> Добавляет оценку студенту, если она ему принадлежит и ещё не была добавлена </summary>
         internal void GetGrade(Grade grade)
         {
+            if (grade == null)
+                throw new ArgumentNullException(nameof(grade));
+
+            if (grade.Lesson == null)
+                throw new ArgumentNullException(nameof(grade.Lesson), "Grade.Lesson is null");
+
             if (grade.Student != this)
                 throw new AnotherStudentGradeException(this, grade);
 
-            if (!_lessons.Contains(grade.Lesson))
+            if (!_lessons.Any(l => l != null && l.Id == grade.Lesson.Id))
                 throw new LessonNotVisitedException(grade.Lesson, this);
 
             if (_grades.Contains(grade))
@@ -103,6 +109,7 @@ namespace Education.Domain.Entities
 
             _grades.Add(grade);
         }
+
         /// <summary> Возвращает список всех домашних заданий, назначенных студенту на уроках </summary>
         public IReadOnlyCollection<Homework> GetAssignedHomeworks()
         {

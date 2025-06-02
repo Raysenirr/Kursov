@@ -53,19 +53,24 @@ namespace Education.Domain.Entities
             ValidateScheduleTime(classTime);
             Group = group ?? throw new GroupIsNullException();
             Teacher = teacher ?? throw new TeacherIsNullException();
-            TeacherId = teacher.Id; // добавлено
+            TeacherId = teacher.Id;
             Topic = topic ?? throw new LessonTopicIsNullsException();
             ClassTime = classTime;
             State = status;
-
             if (status == LessonStatus.New)
                 teacher.ScheduleLesson(this);
+            _grades = new List<Grade>();
+            _homeworks = new List<Homework>();
         }
 
         public Lesson(Group group, Teacher teacher, DateTime classTime, LessonTopic topic)
             : this(Guid.NewGuid(), group, teacher, topic, classTime, LessonStatus.New) { }
 
-        protected Lesson() : base(Guid.NewGuid()) { }
+        protected Lesson() : base(Guid.NewGuid())
+        {
+            _grades = new List<Grade>();
+            _homeworks = new List<Homework>();
+        }
         #endregion
 
         #region Методы

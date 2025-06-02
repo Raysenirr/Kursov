@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Education.ValueObjects")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d9c869f619f971cf21fd171c088feddff2dd72a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+922e5778150d5c7b81a77869f38f9057466b3a23")]
 [assembly: System.Reflection.AssemblyProductAttribute("Education.ValueObjects")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Education.ValueObjects")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

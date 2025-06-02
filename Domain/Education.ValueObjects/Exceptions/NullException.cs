@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Education.ValueObjects.Exceptions
+﻿namespace Education.ValueObjects.Exceptions
 {
     /// <summary>
     /// The exception that is thrown when no validation method is specified for the type. 
